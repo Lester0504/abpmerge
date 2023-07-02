@@ -1,8 +1,8 @@
-! Checksum: PKkWld+6Cn/4ar248Ei4ng
+! Checksum: zxWyxOayAlNwHrhdUi7xzQ
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.2.88.40
-! TimeUpdated: 2023-07-01T14:31:34+00:00
+! Version: 2.2.88.42
+! TimeUpdated: 2023-07-02T00:31:33+00:00
 ! Expires: 4 days (update frequency)
 ||mntdwztuzq.com^
 ||ylrtrhuxzjjc.com^
@@ -9725,6 +9725,7 @@ _800x80_
 ||dl-rms.com^
 ||dlfvgndsdfsn.com^
 ||dlgoliqqxpegmyw.xyz^
+||dlhqffirehv.com^
 ||dmiredindeed.com^
 ||dmm-video.online^
 ||dmzjmp.com^
@@ -10046,6 +10047,7 @@ _800x80_
 ||eqads.com^
 ||eqkjmvkkmvrvw.top^
 ||equiptbrotula.com^
+||erconditingde.info^
 ||ereallywasnoth.com^
 ||eremuribleak.com^
 ||ergadx.com^
@@ -10324,6 +10326,7 @@ _800x80_
 ||for-joiyvidspics.site^
 ||forads.pro^
 ||forbidcrenels.com^
+||forceddenial.com^
 ||forcelessgreetingbust.com^
 ||forearmsunny.com^
 ||foresawmartins.com^
@@ -11479,6 +11482,7 @@ _800x80_
 ||kubiadserv.icu^
 ||kubicadza.xyz^
 ||kubicserves.icu^
+||kugoucko.com^
 ||kuhvkajactas.com^
 ||kukrosti.com^
 ||kuleqasfors.one^
@@ -14310,6 +14314,7 @@ _800x80_
 ||surfedlattins.com^
 ||surprisinglycouncil.com^
 ||survey-daily-prizes.com^
+||surveyonline.top^
 ||surviseacmic.com^
 ||susceptiblefantasyjunction.com^
 ||suspensionreconnectpig.com^
@@ -14563,6 +14568,7 @@ _800x80_
 ||tneca.com^
 ||tniupjzpmb.com^
 ||tnpads.xyz^
+||toabuck.xyz^
 ||toapodazoay.com^
 ||toateeli.net^
 ||tobaitsie.com^
@@ -16198,6 +16204,7 @@ _800x80_
 ||embodimentpronounrunway.com^$popup
 ||entjgcr.com^$popup
 ||eptougry.net^$popup
+||erconditingde.info^$popup
 ||ereallywasnoth.com^$popup
 ||eshkol.io^$popup
 ||eudok-cfy.com^$popup
@@ -16229,6 +16236,7 @@ _800x80_
 ||gosoftwarenow.com^$popup
 ||grauglak.com^$popup
 ||greatdexchange.com^$popup
+||groininsightclaimed.com^$popup
 ||gtbdhr.com^$popup
 ||handwritingnomad.com^$popup
 ||harlequinsleepyfrog.xyz^$popup
@@ -16322,6 +16330,7 @@ _800x80_
 ||score-feed.com^$popup
 ||sealthatleak.com^$popup
 ||securedsmcd.com^$popup
+||sellingtandays.com^$popup
 ||serve-servee.com^$popup
 ||serve-serving.com^$popup
 ||serving-passthrough.com^$popup
@@ -16341,6 +16350,7 @@ _800x80_
 ||spankdrearystroll.com^$popup
 ||spdate.com^$popup
 ||stvkr.com^$popup
+||surveyonline.top^$popup
 ||syringeitch.com^$popup
 ||tabfloor.com^$popup
 ||taprtopcldfa.co^$popup
@@ -16382,6 +16392,7 @@ _800x80_
 ||whookroo.com^$popup
 ||whoursie.com^$popup
 ||workback.net^$popup
+||workervanewalk.com^$popup
 ||writeestatal.space^$popup
 ||xlivrdr.com^$popup
 ||xlviiirdr.com^$popup
@@ -17578,7 +17589,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||exponential.com^*/tags.js$domain=yellowbridge.com
 @@||userload.co/adpopup.js$script
 @@||yandexcdn.com/ad/api/popunder.js$script
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|games.usatoday.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|locipo.jp|maharashtratimes.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|myspace.com|nettavisen.no|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|truvid.com|tubitv.com|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|games.usatoday.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|lemino.docomo.ne.jp|locipo.jp|maharashtratimes.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|myspace.com|nettavisen.no|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|truvid.com|tubitv.com|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|embed.comicbook.com|paramountplus.com|s.yimg.jp|sbs.com.au|tv.rakuten.co.jp|vk.sportsbull.jp|worldsurfleague.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|cbsnews.com|insideedition.com|pch.com
 @@||pubads.g.doubleclick.net/ssai/
