@@ -1,10 +1,21 @@
 #!/bin/sh
 
 # 下载规则
-curl -o i-1.txt https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
-curl -o i-2.txt https://filters.adtidy.org/extension/ublock/filters/224.txt
-curl -o i-3.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
-curl -o i-4.txt https://raw.githubusercontent.com/damengzhu/abpmerge/main/easylistnocssrule.txt
+curl -o i-4.txt https://ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
+curl -o i-4.txt https://raw.githubusercontent.com/vokins/yhosts/master/hosts
+curl -o i-4.txt https://raw.githubusercontent.com/o0HalfLife0o/list/master/ad.txt
+curl -o i-4.txt https://www.i-dont-care-about-cookies.eu/abp/
+curl -o i-4.txt https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt
+curl -o i-4.txt https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+curl -o i-4.txt https://raw.gitmirror.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
+curl -o i-4.txt https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+curl -o i-4.txt https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+curl -o i-4.txt https://adaway.org/hosts.txt
+curl -o i-4.txt https://easylist-downloads.adblockplus.org/easyprivacy.txt
+curl -o i-4.txt https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-easylist.txt
+curl -o i-4.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+curl -o i-4.txt https://cdn.jsdelivr.net/gh/damengzhu/banad/jiekouAD.txt
+curl -o i-4.txt https://www.i-dont-care-about-cookies.eu/abp/
 
 # 合并规则并去除重复项
 cat i*.txt > i-mergd.txt
