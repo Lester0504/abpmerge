@@ -69,7 +69,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 !Format:        adblockplus
 !Entries:       3720
 !Credits:       Peter Lowe - pgl@yoyo.org - pgl on github - https://pgl.yoyo.org/
-!This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus
+!This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&amp;showintro=1&amp;mimetype=plaintext.md5
 !Policy:        https://pgl.yoyo.org/adservers/policy.php
 !Other formats: https://pgl.yoyo.org/adservers/formats.php
 !
