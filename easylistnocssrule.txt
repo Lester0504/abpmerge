@@ -1,8 +1,8 @@
-! Checksum: paxZ6jK5Gf3hfn/0JOl2YA
+! Checksum: AD+lZbCKgbDigvi3b3w6eA
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.2.94.12
-! TimeUpdated: 2023-08-06T07:31:40+00:00
+! Version: 2.2.94.18
+! TimeUpdated: 2023-08-06T15:31:43+00:00
 ! Expires: 4 days (update frequency)
 ||idydlesswale.info^
 ||ucationininancee.info
@@ -1206,7 +1206,7 @@ meteologix.com$$script[tag-content="Flags."][min-length="20000"][max-length="300
 @@||posttrack.com^$xmlhttprequest,~third-party
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=fox.com
 @@||timebucks.com/publishers/js/prebid-ads.js
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=gamoneinterrupted.com|metagnathtuggers.com|wolfdyslectic.com|rationalityaloelike.com|sizyreelingly.com|simpulumlamerop.com|urochsunloath.com|monorhinouscassaba.com|counterclockwisejacky.com|availedsmallest.com|tubelessceliolymph.com|tummulerviolableness.com|35volitantplimsoles5.com|scatch176duplicities.com|matriculant401merited.com|antecoxalbobbing1010.com|boonlessbestselling244.com|cyamidpulverulence530.com|guidon40hyporadius9.com|449unceremoniousnasoseptal.com|321naturelikefurfuroid.com|30sensualizeexpression.com|19turanosephantasia.com|745mingiestblissfully.com|toxitabellaeatrebates306.com|telyn610zoanthropy.com|20demidistance9elongations.com|tinycat-voe-fashion.com|realfinanceblogcenter.com|uptodatefinishconferenceroom.com|bigclatterhomesguideservice.com|fraudclatterflyingcar.com|housecardsummerbutton.com|fittingcentermondaysunday.com|reputationsheriffkennethsand.com|launchreliantcleaverriver.com|audaciousdefaulthouse.com|v-o-e-unblock.com|un-block-voe.net|voeun-block.net|voe-un-block.com|voeunblk.com|voeunblck.com|voeunbl0ck.com|voeunblock3.com|voeunblock2.com|voeunblock1.com|voeunblock.com|voe-unblock.*|voe.bar|voe.sx
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=chromotypic.com|gamoneinterrupted.com|metagnathtuggers.com|wolfdyslectic.com|rationalityaloelike.com|sizyreelingly.com|simpulumlamerop.com|urochsunloath.com|monorhinouscassaba.com|counterclockwisejacky.com|availedsmallest.com|tubelessceliolymph.com|tummulerviolableness.com|35volitantplimsoles5.com|scatch176duplicities.com|matriculant401merited.com|antecoxalbobbing1010.com|boonlessbestselling244.com|cyamidpulverulence530.com|guidon40hyporadius9.com|449unceremoniousnasoseptal.com|321naturelikefurfuroid.com|30sensualizeexpression.com|19turanosephantasia.com|745mingiestblissfully.com|toxitabellaeatrebates306.com|telyn610zoanthropy.com|20demidistance9elongations.com|tinycat-voe-fashion.com|realfinanceblogcenter.com|uptodatefinishconferenceroom.com|bigclatterhomesguideservice.com|fraudclatterflyingcar.com|housecardsummerbutton.com|fittingcentermondaysunday.com|reputationsheriffkennethsand.com|launchreliantcleaverriver.com|audaciousdefaulthouse.com|v-o-e-unblock.com|un-block-voe.net|voeun-block.net|voe-un-block.com|voeunblk.com|voeunblck.com|voeunbl0ck.com|voeunblock3.com|voeunblock2.com|voeunblock1.com|voeunblock.com|voe-unblock.*|voe.bar|voe.sx
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=herokuapp.com
 ||azureedge.net/prod/cosprings/loader.min.js$domain=gazette.com
 @@||tracktrace.delivery/ads.txt
@@ -2515,6 +2515,8 @@ tvtoss.com$$script[tag-content="ads-wrap"]
 /?pl=*&sm=$document
 .live/web/?sid=t*~$document
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?(?:article\d{4}\.doc)?\?[ou]=[0-9a-z]{7}&[ou]=[0-9a-z]{7}/$document,match-case
+/pub?id=$script,third-party
+/in/p/?spot_id=$subdocument,third-party
 &request_ab*&zoneid=$all
 &campid=*&did=$all
 &zoneid=*&request_ab$all
@@ -3578,8 +3580,8 @@ $popup,third-party,domain=sbplay2.xyz,badfilter
 ||realfinanceblogcenter.com^$badfilter
 ||uptodatefinishconferenceroom.com^$badfilter
 ||321naturelikefurfuroid.com^$badfilter
-$popup,third-party,domain=gamoneinterrupted.com|metagnathtuggers.com|wolfdyslectic.com|rationalityaloelike.com|sizyreelingly.com|simpulumlamerop.com|urochsunloath.com|monorhinouscassaba.com|counterclockwisejacky.com|availedsmallest.com|tubelessceliolymph.com|tummulerviolableness.com|35volitantplimsoles5.com|scatch176duplicities.com|antecoxalbobbing1010.com|boonlessbestselling244.com|cyamidpulverulence530.com|guidon40hyporadius9.com|449unceremoniousnasoseptal.com|321naturelikefurfuroid.com|30sensualizeexpression.com|19turanosephantasia.com|toxitabellaeatrebates306.com|telyn610zoanthropy.com|20demidistance9elongations.com|tinycat-voe-fashion.com|realfinanceblogcenter.com|uptodatefinishconferenceroom.com|bigclatterhomesguideservice.com|housecardsummerbutton.com|fittingcentermondaysunday.com|reputationsheriffkennethsand.com|launchreliantcleaverriver.com|audaciousdefaulthouse.com|v-o-e-unblock.com|un-block-voe.net|voeun-block.net|voe-un-block.com|voeunblk.com|voeunblck.com|voeunbl0ck.com|voeunblock3.com|voeunblock2.com|voeunblock1.com|voeunblock.com|voe-unblock.*|voe.bar|voe.sx,badfilter
-/^https?:\/\/.*\.(club|net|xyz|top|casa)\//$popup,domain=gamoneinterrupted.com|metagnathtuggers.com|wolfdyslectic.com|rationalityaloelike.com|sizyreelingly.com|simpulumlamerop.com|urochsunloath.com|monorhinouscassaba.com|counterclockwisejacky.com|availedsmallest.com|tubelessceliolymph.com|tummulerviolableness.com|35volitantplimsoles5.com|scatch176duplicities.com|antecoxalbobbing1010.com|boonlessbestselling244.com|cyamidpulverulence530.com|guidon40hyporadius9.com|449unceremoniousnasoseptal.com|321naturelikefurfuroid.com|30sensualizeexpression.com|19turanosephantasia.com|toxitabellaeatrebates306.com|telyn610zoanthropy.com|20demidistance9elongations.com|tinycat-voe-fashion.com|realfinanceblogcenter.com|uptodatefinishconferenceroom.com|bigclatterhomesguideservice.com|housecardsummerbutton.com|fittingcentermondaysunday.com|reputationsheriffkennethsand.com|launchreliantcleaverriver.com|audaciousdefaulthouse.com|v-o-e-unblock.com|un-block-voe.net|voeun-block.net|voe-un-block.com|voeunblk.com|voeunblck.com|voeunbl0ck.com|voeunblock3.com|voeunblock2.com|voeunblock1.com|voeunblock.com|voe-unblock.*|voe.bar|voe.sx,badfilter
+$popup,third-party,domain=chromotypic.com|gamoneinterrupted.com|metagnathtuggers.com|wolfdyslectic.com|rationalityaloelike.com|sizyreelingly.com|simpulumlamerop.com|urochsunloath.com|monorhinouscassaba.com|counterclockwisejacky.com|availedsmallest.com|tubelessceliolymph.com|tummulerviolableness.com|35volitantplimsoles5.com|scatch176duplicities.com|antecoxalbobbing1010.com|boonlessbestselling244.com|cyamidpulverulence530.com|guidon40hyporadius9.com|449unceremoniousnasoseptal.com|321naturelikefurfuroid.com|30sensualizeexpression.com|19turanosephantasia.com|toxitabellaeatrebates306.com|telyn610zoanthropy.com|20demidistance9elongations.com|tinycat-voe-fashion.com|realfinanceblogcenter.com|uptodatefinishconferenceroom.com|bigclatterhomesguideservice.com|housecardsummerbutton.com|fittingcentermondaysunday.com|reputationsheriffkennethsand.com|launchreliantcleaverriver.com|audaciousdefaulthouse.com|v-o-e-unblock.com|un-block-voe.net|voeun-block.net|voe-un-block.com|voeunblk.com|voeunblck.com|voeunbl0ck.com|voeunblock3.com|voeunblock2.com|voeunblock1.com|voeunblock.com|voe-unblock.*|voe.bar|voe.sx,badfilter
+/^https?:\/\/.*\.(club|net|xyz|top|casa)\//$popup,domain=chromotypic.com|gamoneinterrupted.com|metagnathtuggers.com|wolfdyslectic.com|rationalityaloelike.com|sizyreelingly.com|simpulumlamerop.com|urochsunloath.com|monorhinouscassaba.com|counterclockwisejacky.com|availedsmallest.com|tubelessceliolymph.com|tummulerviolableness.com|35volitantplimsoles5.com|scatch176duplicities.com|antecoxalbobbing1010.com|boonlessbestselling244.com|cyamidpulverulence530.com|guidon40hyporadius9.com|449unceremoniousnasoseptal.com|321naturelikefurfuroid.com|30sensualizeexpression.com|19turanosephantasia.com|toxitabellaeatrebates306.com|telyn610zoanthropy.com|20demidistance9elongations.com|tinycat-voe-fashion.com|realfinanceblogcenter.com|uptodatefinishconferenceroom.com|bigclatterhomesguideservice.com|housecardsummerbutton.com|fittingcentermondaysunday.com|reputationsheriffkennethsand.com|launchreliantcleaverriver.com|audaciousdefaulthouse.com|v-o-e-unblock.com|un-block-voe.net|voeun-block.net|voe-un-block.com|voeunblk.com|voeunblck.com|voeunbl0ck.com|voeunblock3.com|voeunblock2.com|voeunblock1.com|voeunblock.com|voe-unblock.*|voe.bar|voe.sx,badfilter
 @@||megatube.xxx/atrm/s/s/js/m/pr-before.js
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=pluto.tv
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=sammobile.com
@@ -5996,7 +5998,6 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /dynamicAds.
 /easyads.$domain=~easyads.bg|~easyads.eu|~easyads.io|~easyads.lk
 /easyazon-
-/embed-ad-
 /embed/ads.
 /embed_ad.
 /ero-ads-
@@ -8936,6 +8937,7 @@ _800x80_
 ||cachegorilla.com^
 ||cadencesubject.com^
 ||cadlsyndicate.com^
+||cadrctlnk.com^
 ||cadsecs.com^
 ||cadsimz.com^
 ||caeli-rns.com^
@@ -11077,6 +11079,7 @@ _800x80_
 ||hitcpm.com^
 ||hjiwoazeigefn.com^
 ||hjxajf.com^
+||hkiztcykfb.com^
 ||hligh.com^
 ||hlmiq.com^
 ||hlserve.com^
@@ -11984,6 +11987,7 @@ _800x80_
 ||liverbarrelrustle.com^
 ||livezombymil.com^
 ||lividn.com^
+||lixnirokjqp.com^
 ||lkcoffe.com^
 ||lkpmprksau.com^
 ||lkqd.net^
@@ -12564,6 +12568,7 @@ _800x80_
 ||nattepush.com^
 ||naucaish.net^
 ||navelfletch.com^
+||navigablepiercing.com^
 ||nawpush.com^
 ||naywordumiaks.website^
 ||nazolncubha.com^
@@ -13562,6 +13567,7 @@ _800x80_
 ||profileoffencewithdraw.com^
 ||profitablecpmgate.com^
 ||profitablecpmnetwork.com^
+||profitablecreativeformat.com^
 ||profitabledisplaycontent.com^
 ||profitabledisplayformat.com^
 ||profitabledisplaynetwork.com^
@@ -13766,6 +13772,7 @@ _800x80_
 ||pyrroylceriums.com^
 ||pyxiscablese.com^
 ||pzawclkyxuno.com^
+||pzwdtz.com^
 ||q1mediahydraplatform.com^
 ||q8ntfhfngm.com^
 ||qa24ljic4i.com^
@@ -14611,6 +14618,7 @@ _800x80_
 ||smartadserver.com^
 ||smarttopchain.nl^
 ||smartytech.io^
+||smentbrads.info^
 ||smfsojvsaxbgf.com^
 ||smilewanted.com^
 ||smjulynews.com^
@@ -15070,6 +15078,7 @@ _800x80_
 ||tentativeroofearlap.com^
 ||tenthsfrumpy.com^
 ||teraiwaxing.uno^
+||terbit2.com^
 ||terelinkman.info^
 ||terra8nb.com^
 ||terracehypnotize.com^
@@ -15582,6 +15591,7 @@ _800x80_
 ||updatepro.pro^
 ||updiveufos.com^
 ||upgulpinon.com^
+||uphillgrandmaanger.com^
 ||uphilo.com^
 ||upkoffingr.com^
 ||uplandstoat.digital^
@@ -16097,6 +16107,7 @@ _800x80_
 ||woudaufe.net^
 ||woukrkskillsom.info^
 ||wouldmakefeag.info^
+||wouled.com^
 ||wouthula.xyz^
 ||wovensur.com^
 ||wowcalmnessdumb.com^
@@ -16171,6 +16182,7 @@ _800x80_
 ||xameleonads.com^
 ||xapads.com^
 ||xawlop.com^
+||xbyntjhmamtocrx.com^
 ||xcec.ru^
 ||xcowuheclvwryh.com^
 ||xdiwbc.com^
@@ -17126,6 +17138,7 @@ _800x80_
 ||matchjunkie.com^$popup
 ||maxigamma.com^$popup
 ||maysunown.live^$popup
+||mcpuwpush.com^$popup
 ||mediasama.com^$popup
 ||meetwebclub.com^$popup
 ||mendress.icu^$popup
@@ -17235,6 +17248,7 @@ _800x80_
 ||serverfritterdisability.com^$popup
 ||shaggyaleswede.com^$popup
 ||shoopusahealth.com^$popup
+||smentbrads.info^$popup
 ||soccertakeover.com^$popup
 ||soocaips.com^$popup
 ||sorrycarboncolorful.com^$popup
@@ -17254,6 +17268,7 @@ _800x80_
 ||taprtopcldfb.co^$popup
 ||tdspa.top^$popup
 ||teddynineteenthpreoccupation.com^$popup
+||terbit2.com^$popup
 ||thecarconnections.com^$popup
 ||thecloudvantnow.com^$popup
 ||thencemutinyhamburger.com^$popup
@@ -17294,6 +17309,7 @@ _800x80_
 ||uidhome.com^$popup
 ||unicornpride123.com^$popup
 ||unwoobater.com^$popup
+||uphillgrandmaanger.com^$popup
 ||uponelectabuzzor.club^$popup
 ||vavilisys.com^$popup
 ||veepteero.com^$popup
@@ -18349,6 +18365,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||javmoon.me/player/jw8/vast.js
 ||joysporn.sex/js/kj.js
 ||kindgirls.com/banners2/
+||kurakura21.space/js/baf.js
 ||madmen2.alastonsuomi.com^
 ||mansurfer.com/flash_promo/
 ||milfnut.net/assets/jquery/$script
@@ -18372,6 +18389,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|9anime.id|adbl
 ||pregchan.com/.static/pages/dlsite.html
 ||redgifs.com/assets/js/goCtrl.js
 ||ro55cpi1.xhamster.com^
+||rubystream.xyz/z-$script
 ||rusdosug.com/Fotos/Banners/
 ||sex3.com/ee/s/s/js/ssu
 ||sex3.com/ee/s/s/su
