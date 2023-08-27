@@ -1,8 +1,8 @@
-! Checksum: KAxe+2jlXtpwxuWYxiLvOA
+! Checksum: UuvwekwW3nQxO/9PxzSyZw
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.2.97.39
-! TimeUpdated: 2023-08-27T07:31:42+00:00
+! Version: 2.2.97.45
+! TimeUpdated: 2023-08-27T15:31:37+00:00
 ! Expires: 4 days (update frequency)
 ||ohkyxnjj.com^
 ||jezailmasking.com^
@@ -5207,6 +5207,7 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /admarker.$domain=~admarker.co.il
 /admarker_
 /admaven.
+/admgr.
 /admixer_
 /admob.$domain=~google.com
 /adModule.
@@ -5543,6 +5544,7 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /advertsky.
 /advertsquare.
 /adverttop.
+/advideo.$domain=~advideo.pro|~advideo.site
 /adviewas3.
 /advrotator.
 /advscript.
@@ -14740,7 +14742,6 @@ _800x80_
 ||songtopbrand.com^
 ||soninlawfaceconfide.com^
 ||sonnetkeltics.com^
-||sonobi.com^
 ||soocaips.com^
 ||sootconform.com^
 ||sopalk.com^
@@ -16938,6 +16939,7 @@ _800x80_
 ||snack-media.com^$third-party
 ||snap.com^$third-party
 ||snigelweb.com^$third-party
+||sonobi.com^$third-party
 ||sovrn.com^$third-party
 ||speakol.com^$third-party
 ||spolecznosci.net^$third-party
