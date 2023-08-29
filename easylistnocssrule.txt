@@ -1,8 +1,8 @@
-! Checksum: qxXpA6znBzsDigZ3cEgn8w
+! Checksum: gNw9kwYF+q7dO9bqNzWQFg
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.2.97.75
-! TimeUpdated: 2023-08-29T07:32:13+00:00
+! Version: 2.2.97.83
+! TimeUpdated: 2023-08-29T15:31:52+00:00
 ! Expires: 4 days (update frequency)
 ||lzvkmwyavjeeb.top^
 ||continentalaileendepict.com^
@@ -851,6 +851,8 @@ ukposts.info,ruplayers.com$$script[tag-content="insertAdjacentHTML"]
 serieslatinoamerica.tv$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-length="10000"]
 tr-cam.com$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-length="10000"]
 trshow.info$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-length="10000"]
+@@||yunjiema.top/static/ad/ads.js$domain=yunjiema.top
+||svgcolor.com/assets/js/template/anti-block.js
 ||shroomers.app/static/modules/base/js/shr-ads-enforcer.js
 ||acacdn.com^$script,redirect=noopjs,domain=dflix.top
 ||imasdk.googleapis.com/pal/sdkloader/pal.js$script,redirect-rule=noopjs,domain=channel5.com
@@ -2207,6 +2209,7 @@ filmweb.pl$$script[tag-content=".name)throw h=""ABP"","][max-length="7000"]
 @@||ads.imprezzer.com/js/$script,domain=mgronline.com
 @@||movie2free.com/wp-content/themes/next/images/nav-bullet
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=voicetv.co.th
+||phimlongtieng.net/*.mp4
 ||phimmoi.in/storage/images/banner/
 ||phimmoi.in/storage/images/6686_preload.gif
 ||minhpc.com/web/main.js
@@ -3195,6 +3198,8 @@ stun:1755001826:443$important
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
 ||filmibeat.com/scripts/videos/*-videos/scroll-ad.php
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
@@ -3405,8 +3410,8 @@ $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
 @@||live.streamtheworld.com/*/playlist.m3u8$elemhide,jsinject,extension,content
-@@||gplinks.in/*/main.js$domain=revadvert.com|mynewsmedia.co
-@@||gplinks.in/*/data.php$domain=revadvert.com|mynewsmedia.co
+@@||gplinks.in/*/main.js$domain=revadvert.com|mynewsmedia.co|rontymobile.in
+@@||gplinks.in/*/data.php$domain=revadvert.com|mynewsmedia.co|rontymobile.in
 @@||googletagservices.com/tag/js/gpt.js$domain=core77.com
 !+ PLATFORM(ios, ext_android_cb, android)
 @@||static-cdn.spot.im/production/ads/tags/*/ads/ads.js$domain=cgmagonline.com
@@ -4255,6 +4260,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||mediacdn.disqus.com^$document
 @@||ad-emea.doubleclick.net/clk
 @@||googleadservices.com^$domain=google.ae|google.at|google.be|google.by|google.ca|google.ch|google.cl|google.cn|google.co.id|google.co.in|google.co.jp|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.bd|google.com.br|google.com.co|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.ng|google.com.pe|google.com.ph|google.com.pk|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.vn|google.de|google.dk|google.ee|google.es|google.fr|google.gr|google.hu|google.ie|google.it|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|google.tn
+@@||lso.ca^$stealth=dpi
 @@||cherrymx.de^$stealth=dpi
 @@||trailrunnermag.com^$stealth=dpi
 @@||stylist.co.uk^$stealth=dpi
@@ -4328,6 +4334,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 !+ PLATFORM(android)
 @@||adguard.com^$stealth
 @@||1fichier.com/?$stealth,~stylesheet,~image,~script
+@@||geocode.search.hereapi.com/v1/geocode?xnlp=$stealth
 @@||api-js.datadome.co/js/|$stealth,domain=auth.garena.com
 @@||account.adguard.*/api_acc/$stealth=3p-auth
 @@||by-promokod.by^$stealth=useragent
@@ -5496,12 +5503,8 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /adv-scroll.
 /adv-socialbar-
 /adv.css?
-/adv.jsp
-/adv/?rad_$domain=~rakuten.co.jp
-/adv/box-
 /adv/kelkoo_
 /adv/mjx.
-/adv/search.
 /adv/sponsor/*
 /adv1.
 /adv2.$domain=~adv2.com
@@ -8912,6 +8915,7 @@ _800x80_
 ||charrewuzzer.com^
 ||chastehandkerchiefclassified.com^
 ||chats2023.online^
+||chauckoo.xyz^
 ||chaugroo.net^
 ||chaukrgukepers.xyz^
 ||chaussew.net^
@@ -8980,6 +8984,7 @@ _800x80_
 ||chrysostrck.com^
 ||chshcms.net^
 ||chsrkred.com^
+||chugsorlando.com^
 ||chullohagrode.com^
 ||chultoux.com^
 ||churchclassified.com^
@@ -10248,6 +10253,7 @@ _800x80_
 ||fezzanminyans.com^
 ||ff00c90f6a.com^
 ||ff4eaea9ba.com^
+||ffcclqkmmlmecf.xyz^
 ||ffffffdcdcdc.name^
 ||fgxfnkiojgs.com^
 ||fhepiqajsdap.com^
@@ -14589,6 +14595,7 @@ _800x80_
 ||shitucka.net^
 ||shiverscissors.com^
 ||shoageep.com^
+||shoaltor.com^
 ||shockingstrategynovelty.com^
 ||shoeingneurone.com^
 ||sholke.com^
@@ -15424,6 +15431,7 @@ _800x80_
 ||tractusoutsum.com^
 ||tradbypass.com^
 ||tradeadexchange.com^
+||tradingpancreasdevice.com^
 ||traffdaq.com^
 ||traffic.club^
 ||traffic.name^
@@ -16029,6 +16037,7 @@ _800x80_
 ||walknotice.com^
 ||wamarapayor.com^
 ||wanlyavower.com^
+||wannessdebus.com^
 ||wannestfooled.com^
 ||wansultoud.com^
 ||wapbaze.com^
@@ -18368,6 +18377,7 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||eporner.com/event.php
 ||fakings.com/tools/get_banner.php
 ||fapnado.com/api/spots/
+||fastfuckgames.com/aff.htm
 ||fetishshrine.com/js/customscript.js
 ||files.wordpress.com^$domain=hentaigasm.com
 ||fizhit.xhamster.com^
