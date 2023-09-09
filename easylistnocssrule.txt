@@ -1,9 +1,12 @@
-! Checksum: ihRgm4VxL7pZ2Ia4MjGnkw
+! Checksum: F6FwWMJ678e6humFrkx2JA
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.2.99.67
-! TimeUpdated: 2023-09-09T06:32:10+00:00
+! Version: 2.2.99.70
+! TimeUpdated: 2023-09-09T14:31:30+00:00
 ! Expires: 4 days (update frequency)
+||cotwcpcjcrjfj.xyz^
+||xfhgstxcytiu.com^
+||zdqgsoqsmppd.com^
 ||alocdn.co^$popup
 ||wawhairt.net^
 ||basintippets.com^
@@ -3383,6 +3386,8 @@ $domain=adserver.juicyads.com
 $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=healthline.com
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=healthline.com
 ||nsw2u.com^$popup,badfilter
 !+ PLATFORM(windows, mac, android)
 @@||vpnconnect.ru$jsinject,elemhide,extension
