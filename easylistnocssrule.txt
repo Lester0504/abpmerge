@@ -1,8 +1,8 @@
-! Checksum: PfJT+aLEF9MScxI3u0UQxQ
+! Checksum: CsEH0STaA9LFttP3jmL9ig
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.2.54
-! TimeUpdated: 2023-09-27T07:31:34+00:00
+! Version: 2.3.2.60
+! TimeUpdated: 2023-09-27T15:31:38+00:00
 ! Expires: 4 days (update frequency)
 ||koraboe.com^
 ||spadsync.com^
@@ -904,6 +904,7 @@ lascimmiapensa.com,mangapt.com,ottverse.com,agorablog.it,apfelpatient.de,opencul
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=movierulzhd.skin|tecmundo.net|gaminplay.com|dbsysupgrade.com|therootdroid.com|sevenjournals.com|7apple.net|jorgemoncada.com|hollywoodsmagazine.com|anicosplay.net|ewybory.eu|nanoroms.com|egymanga.net|flipreview.com|hiphopa.net|pngtosvg.com|compartilhandobr.com|loksado.com|ecoursefree.com|daemon-hentai.com|yigeplus.xyz|cgchotbox.com|launcherfull.com|cheatbyte.com|techycoder.com|arasindakifark.net|kitguru.net|gsmxt.com|mangaxp.com|technicalatg.com|technicalatg.xyz|freetutorialsdownload.online|vipmods.net|adonisfansub.com|themovieslab.in|bitcoinegypt.news|talkjarvis.com|satcesc.com|dongknows.com|getfreecourses.net|citychilli.com|livenewsof.com|pinayvids.com|hardcoregames.ca|pasend.*|unityassetcollection.com|crypto-fun-faucet.de|fileoops.com|samuraiscan.com|3dmodelshare.org|cgtips.org|dailyvideoreports.net|codesnail.com|ma-x.org|sitarchive.com|onlyfanesse.com|codingshiksha.com|graphicux.com|w3layouts.com|musike.net|windowsmatters.com|avoiderrors.com|gatcha.org|sayrodigital.com|justandroid.net|4horlover.com|topnewsshow.com|3dzip.org|ovagames.com|lewdsenpai.com|mitsmits.com|asyadrama.com|r3ndy.com|mylivewallpapers.com|e-sanatatea.ro|ourcoindigibyte.xyz|ourcoindash.xyz|ourcoineth.xyz|ourcoinfaucet.xyz|ourcoin.xyz|latestjav.com|sakpot.com|wallpaperwaifu.com|news.claimfey.com|mangacrab.com|asuralightnovel.com|javboys.com|joyplot.com|cyberstockofficial.in|pastlinkvn.com|rpclip.com|doibihar.org|ffworld.xyz|tecnicalboy.com|31mag.nl|gourmetscans.net|aurotechs.net|guiadaengenharia.com|ottverse.com|magesypro.pro|magesypro.com|magesy.blog|majesy.org|magesy.eu|magesy.fr|magesy.eu|leviatanscans.com|taurusfansub.com|movierulzhd.site|igay69.com|mangapt.com|wookschalou.com|kodlamamerkezi.com|novelasligera.com|descargaspcpro.net|bbsnews.co.id|4allprograms.me|ethernalworld.com|gaypornhot.com|javgay.com|boyfuck.me|javboys.tv|smarttips.in|engtranslations.com|lascimmiapensa.com|powerup-gaming.com|infortechno.com|magiskmanager.com
 ||link1s.com/kiem-tien-mua-sua-cho-con-gai.js
 !+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
 /dectector.js$~third-party,domain=1337xproxies.com|eztvstatus.net|rutracker.bio|1337x.bio|1337x.help|eztv.wiki|rarbg.store|zooqle.ink|kickasstorrents.bio|extratorrent.bio|torrentfunk.bio|nyaa.bio|torrent9.bio|magnetdl.bio|idope.bio|demonoid.bio|torrentz2.bio|torrentgalaxy.bio|isohunt.bio|thepiratebays.bio
 @@||devfiles.pages.dev/fonts/wp-content/plugins/best-ads-block-detector/main.js
 ||pornleaks.in/js/sample.js?version=
@@ -1161,7 +1162,6 @@ $script,xmlhttprequest,redirect-rule=noopjs,domain=freesolana.top
 ||aaxwall.com^
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=imagetotext.info
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,domain=itscybertech.com|premiumebooks.*
-@@||app.trangchu.news/*.js
 ||googletagmanager.com/gtag/js$domain=coin-free.com|kienthucrangmieng.com|clickscoin.com,redirect=noopjs,important
 ||bluemediafile*.*/imgads/$image,redirect=1x1-transparent.gif,domain=bluemediafiles.*|bluemediafile.*
 @@||a.poki.com/prebid/$script,domain=poki-gdn.com|repuls.io
@@ -1686,6 +1686,7 @@ whsports.tv$$div[tag-content="Please enable / Bitte aktiviere JavaScript"][max-l
 hyperspeeds.com$$div[tag-content="Please enable / Bitte aktiviere JavaScript"][max-length="1200"]
 @@||ad.admitad.com/3rd-party/advert.js
 !+ PLATFORM(windows, mac, android)
+!+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
@@ -4409,6 +4410,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||googleadservices.com^$domain=google.ae|google.at|google.be|google.by|google.ca|google.ch|google.cl|google.cn|google.co.id|google.co.in|google.co.jp|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.bd|google.com.br|google.com.co|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.ng|google.com.pe|google.com.ph|google.com.pk|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.vn|google.de|google.dk|google.ee|google.es|google.fr|google.gr|google.hu|google.ie|google.it|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|google.tn
 !+ PLATFORM(android)
 @@||adguard.com^$stealth
+@@||cw-api.takeaway.com^$stealth=3p-auth
 @@||file.myqcloud.com^$stealth,image,domain=icezmz.com
 @@||suggestions.dadata.ru^$stealth
 @@||kit.fontawesome.com$stealth=referrer,domain=androidacy.com
@@ -7758,6 +7760,7 @@ _800x80_
 ||articlegarlandferment.com^
 ||articlepawn.com^
 ||artpever.com^
+||aruyevdqsnd.xyz^
 ||arzanphearse.com^
 ||asacdn.com^
 ||asandcomemu.info^
@@ -9021,6 +9024,7 @@ _800x80_
 ||confrontationdrunk.com^
 ||confrontationlift.com^
 ||confvtt.com^
+||congostudia.com^
 ||connectad.io^
 ||connextra.com^
 ||conoret.com^
@@ -10204,6 +10208,7 @@ _800x80_
 ||feelseveryone.com^
 ||feelsjet.com^
 ||feeseeho.com^
+||feeshoul.xyz^
 ||feewuvoo.net^
 ||fegsbatak.uno^
 ||feignoccasionedmound.com^
@@ -10382,6 +10387,7 @@ _800x80_
 ||foresawmartins.com^
 ||forestsbotherdoubted.com^
 ||forestsshampoograduate.com^
+||forfeitsubscribe.com^
 ||forflygonom.com^
 ||forfrogadiertor.com^
 ||forgekeeper.top^
@@ -11130,6 +11136,7 @@ _800x80_
 ||hrhufhhay.com^
 ||hrogrpee.de^
 ||hrtye.com^
+||hrxjqyxvdqidpv.com^
 ||hstpnetwork.com^
 ||htdvt.com^
 ||htevoo.xyz^
@@ -12152,6 +12159,7 @@ _800x80_
 ||lsjvqovgx.com^
 ||lsqggflcsm.com^
 ||lsqzxexvphk.com^
+||ltaqqgvitq.com^
 ||ltckrqiy.com^
 ||ltiagmkphobd.com^
 ||ltzsjgnb.com^
@@ -12413,6 +12421,7 @@ _800x80_
 ||metricswpsh.com^
 ||metsaubs.net^
 ||mewgzllnsp.com^
+||meyximegrgypnv.com^
 ||mfabxfb.com^
 ||mfadsrvr.com^
 ||mfcewkrob.com^
@@ -12924,6 +12933,7 @@ _800x80_
 ||nowsubmission.com^
 ||npcad.com^
 ||npcta.xyz^
+||npjhdunxxfhwgtv.com^
 ||npracticalwhic.buzz^
 ||npugpilraku.com^
 ||nqgdljechyyska.com^
@@ -13278,6 +13288,7 @@ _800x80_
 ||otorwardsoffhdgat.com^
 ||ottdhysral.com^
 ||oucaibie.net^
+||oudistit.com^
 ||ougrauty.com^
 ||ougribot.net^
 ||ouhastay.net^
@@ -13817,6 +13828,7 @@ _800x80_
 ||prawntimetableinflux.com^
 ||prdmjzogryvhhz.com^
 ||prdredir.com^
+||prearmscachet.uno^
 ||precedenowadaysbarbecue.com^
 ||preciousdoctor.pro^
 ||precipitationsloganhazard.com^
@@ -14037,6 +14049,7 @@ _800x80_
 ||pugsgivehugs.com^
 ||puhtml.com^
 ||pujuco.uno^
+||pulfrnaewqrkuqg.com^
 ||pulseadnetwork.com^
 ||pulsemgr.com^
 ||punkahskayles.com^
@@ -15622,6 +15635,7 @@ _800x80_
 ||textbookmudbutterfly.com^
 ||tfla.xyz^
 ||tfosrv.com^
+||tgboghbslgrkg.com^
 ||tgsscmaxfi.com^
 ||thaickoo.net^
 ||thaiwhou.com^
@@ -16486,6 +16500,7 @@ _800x80_
 ||vxjmolopbsma.com^
 ||vxlpuja.com^
 ||vxnbklwrctqbn.xyz^
+||vxoncbelghuic.com^
 ||vxsxczfsmfj.com^
 ||vxxizaan.com^
 ||vycyqxnbrwz.com^
@@ -16712,6 +16727,7 @@ _800x80_
 ||wintjaywolf.org^
 ||wirelessinvariable.com^
 ||wirratailage.com^
+||wirrttnlmumsak.xyz^
 ||wirwastine.digital^
 ||wishesantennarightfully.com^
 ||wishesobtrusivefastest.com^
@@ -18138,10 +18154,13 @@ _800x80_
 ||yurivideo.com^$third-party
 ||cam4tracking.com^$popup
 ||juicyads.com^$popup
+||1064075587.rsc.cdn77.org^
 ||1080872514.rsc.cdn77.org^
 ||10945-5.s.cdn15.com^
 ||1187531871.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
+||1567883633.rsc.cdn77.org^
+||1664906762.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
 ||1786830340.rsc.cdn77.org^
 ||360playvid.info^$third-party
