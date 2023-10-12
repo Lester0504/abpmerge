@@ -1,8 +1,8 @@
-! Checksum: H5JYfb+WMZKha040apcHZA
+! Checksum: xWmPcR+A8RXX9CFqciHfcQ
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.4.48
-! TimeUpdated: 2023-10-12T07:31:33+00:00
+! Version: 2.3.4.57
+! TimeUpdated: 2023-10-12T15:31:33+00:00
 ! Expires: 4 days (update frequency)
 ||xaqmijey.com^
 ||lkjjhrwrcmvtl.com^
@@ -2824,7 +2824,6 @@ $script,third-party,denyallow=cloudcdn.monster|gstatic.com|cloudflare.com|jsdeli
 ||hdtube.porn/fork/
 ||secured.dailymail.co.uk/feeds/commercial/topVideos.json
 ||anysex.com/*.html
-||guccihide.store/assets/jquery/adult*.js
 ||camcaps.*/vsx.js
 ||a.magsrv.com/nativeads-v*.js
 ||a.pemsrv.com/popunder*.js
@@ -4486,6 +4485,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||googleadservices.com^$domain=google.ae|google.at|google.be|google.by|google.ca|google.ch|google.cl|google.cn|google.co.id|google.co.in|google.co.jp|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.bd|google.com.br|google.com.co|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.ng|google.com.pe|google.com.ph|google.com.pk|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.vn|google.de|google.dk|google.ee|google.es|google.fr|google.gr|google.hu|google.ie|google.it|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|google.tn
 !+ PLATFORM(android)
 @@||adguard.com^$stealth
+@@||awsapprunner.com/users/$stealth=3p-auth
 @@||ed-*.edgking.me/*/chunklist.m3u8$stealth
 @@||walletkeyslocker.me/?stream=$domain=sinvida.me,stealth
 @@||cdntvmedia.com^$stealth=referrer
@@ -9200,38 +9200,11 @@ _800x80_
 ||czyoxhxufpm.com^
 ||d05571f85f.com^
 ||d13babd868.com^
-||d13j11nqjt0s84.cloudfront.net^
-||d15mt77nzagpnx.cloudfront.net^
-||d17c5vf4t6okfg.cloudfront.net^
-||d1856n6bep9gel.cloudfront.net^
-||d199kwgcer5a6q.cloudfront.net^
-||d1f9tkqiyb5a97.cloudfront.net^
-||d1g8forfjnu2jh.cloudfront.net^
-||d1j818d3wapogd.cloudfront.net^
-||d1ol7fsyj96wwo.cloudfront.net^
-||d1sfclevshpbro.cloudfront.net^
-||d1spc7iz1ls2b1.cloudfront.net^
-||d1xdxiqs8w12la.cloudfront.net^
-||d1xo0f2fdn5no0.cloudfront.net^
-||d1yeqwgi8897el.cloudfront.net^
-||d1z58p17sqvg6o.cloudfront.net^
 ||d24ak3f2b.top^
 ||d2d7bba154.com^
-||d2ele6m9umnaue.cloudfront.net^
-||d2elslrg1qbcem.cloudfront.net^
-||d2ob4whwpjvvpa.cloudfront.net^
-||d2ohmkyg5w2c18.cloudfront.net^
-||d31m6w8i2nx65e.cloudfront.net^
-||d3d9gb3ic8fsgg.cloudfront.net^
 ||d3da127b69.com^
-||d3sof4x9nlmbgy.cloudfront.net^
-||d3tnmn8yxiwfkj.cloudfront.net^
-||d3uvwdhukmp6v9.cloudfront.net^
 ||d4d48974197052ea.com^
 ||d59936b940.com^
-||d6l5p6w9iib9r.cloudfront.net^
-||d7jpk19dne0nn.cloudfront.net^
-||d7tst6bnt99p2.cloudfront.net^
 ||da-ads.com^
 ||daailynews.com^
 ||dabbyfather.com^
@@ -9294,7 +9267,6 @@ _800x80_
 ||dbizrrslifc.com^
 ||dcfnihzg81pa.com^
 ||dcuonsugikrma.com^
-||dczhbhtz52fpi.cloudfront.net^
 ||dd9l0474.de^
 ||ddhjxakewpp.com^
 ||ddqfgamwnhp.com^
@@ -9502,7 +9474,6 @@ _800x80_
 ||dkrxtdnlg.com^
 ||dl-rms.com^
 ||dlfvgndsdfsn.com^
-||dltvkwr7nbdlj.cloudfront.net^
 ||dmayindallmypi.com^
 ||dmeukeuktyoue.info^
 ||dmopqjaswvmvopm.com^
@@ -9677,7 +9648,6 @@ _800x80_
 ||dwwpofwebdwm.com^
 ||dxmjyxksvc.com^
 ||dyingconjunction.com^
-||dykwdhfiuha6l.cloudfront.net^
 ||dylbqnfhikdd.com^
 ||dynamicapl.com^
 ||dynamicjsconfig.com^
@@ -17645,7 +17615,6 @@ _800x80_
 ||affiliate.heureka.cz^
 ||affiliate.juno.co.uk^
 ||affiliatepluginintegration.cj.com^
-||affiliates.fantasticbet.com^$popup
 ||alarmsportsnetwork.com^$third-party
 ||amazonaws.com^$domain=downloadpirate.com|hexupload.net|krunkercentral.com|uploadhaven.com
 ||an.yandex.ru^$domain=~e.mail.ru
@@ -17814,6 +17783,7 @@ _800x80_
 ||d11zevc9a5598r.cloudfront.net^
 ||d12tu1kocp8e8u.cloudfront.net^
 ||d13gni3sfor862.cloudfront.net^
+||d13j11nqjt0s84.cloudfront.net^
 ||d13k7prax1yi04.cloudfront.net^
 ||d13pxqgp3ixdbh.cloudfront.net^
 ||d140sbu1b1m3h0.cloudfront.net^
@@ -17827,9 +17797,12 @@ _800x80_
 ||d15jg7068qz6nm.cloudfront.net^
 ||d15kdpgjg3unno.cloudfront.net^
 ||d15kuuu3jqrln7.cloudfront.net^
+||d15mt77nzagpnx.cloudfront.net^
 ||d162nnmwf9bggr.cloudfront.net^
 ||d16saj1xvba76n.cloudfront.net^
+||d17c5vf4t6okfg.cloudfront.net^
 ||d183xvcith22ty.cloudfront.net^
+||d1856n6bep9gel.cloudfront.net^
 ||d188elxamt3utn.cloudfront.net^
 ||d188m5xxcpvuue.cloudfront.net^
 ||d18b5y9gp0lr93.cloudfront.net^
@@ -17840,6 +17813,7 @@ _800x80_
 ||d18myvrsrzjrd7.cloudfront.net^
 ||d18t35yyry2k49.cloudfront.net^
 ||d192r5l88wrng7.cloudfront.net^
+||d199kwgcer5a6q.cloudfront.net^
 ||d19gkl2iaav80x.cloudfront.net^
 ||d1aezk8tun0dhm.cloudfront.net^
 ||d1aiciyg0qwvvr.cloudfront.net^
@@ -17864,15 +17838,18 @@ _800x80_
 ||d1ev866ubw90c6.cloudfront.net^
 ||d1ezlc9vy4yc7g.cloudfront.net^
 ||d1f05vr3sjsuy7.cloudfront.net^
+||d1f9tkqiyb5a97.cloudfront.net^
 ||d1fs2ef81chg3.cloudfront.net^
 ||d1g2nud28z4vph.cloudfront.net^
 ||d1g4493j0tcwvt.cloudfront.net^
+||d1g8forfjnu2jh.cloudfront.net^
 ||d1ha41wacubcnb.cloudfront.net^
 ||d1igvjcl1gjs62.cloudfront.net^
 ||d1ilwohzbe4ao6.cloudfront.net^
 ||d1j1m9awq6n3x3.cloudfront.net^
 ||d1j2jv7bvcsxqg.cloudfront.net^
 ||d1j47wsepxe9u2.cloudfront.net^
+||d1j818d3wapogd.cloudfront.net^
 ||d1j9qsxe04m2ki.cloudfront.net^
 ||d1jnvfp2m6fzvq.cloudfront.net^
 ||d1juimniehopp3.cloudfront.net^
@@ -17898,6 +17875,7 @@ _800x80_
 ||d1nx2jii03b4ju.cloudfront.net^
 ||d1of5w8unlzqtg.cloudfront.net^
 ||d1okyw2ay5msiy.cloudfront.net^
+||d1ol7fsyj96wwo.cloudfront.net^
 ||d1oykxszdrgjgl.cloudfront.net^
 ||d1p0vowokmovqz.cloudfront.net^
 ||d1p3zboe6tz3yy.cloudfront.net^
@@ -17911,6 +17889,7 @@ _800x80_
 ||d1rp4yowwe587e.cloudfront.net^
 ||d1rsh847opos9y.cloudfront.net^
 ||d1s4mby8domwt9.cloudfront.net^
+||d1sfclevshpbro.cloudfront.net^
 ||d1sjz3r2x2vk2u.cloudfront.net^
 ||d1spc7iz1ls2b1.cloudfront.net^
 ||d1t671k72j9pxc.cloudfront.net^
@@ -17932,11 +17911,15 @@ _800x80_
 ||d1wi563t0137vz.cloudfront.net^
 ||d1wjz6mrey9f5v.cloudfront.net^
 ||d1wv5x2u0qrvjw.cloudfront.net^
+||d1xdxiqs8w12la.cloudfront.net^
 ||d1xkyo9j4r7vnn.cloudfront.net^
+||d1xo0f2fdn5no0.cloudfront.net^
 ||d1y3xnqdd6pdbo.cloudfront.net^
 ||d1ybdlg8aoufn.cloudfront.net^
+||d1yeqwgi8897el.cloudfront.net^
 ||d1ytalcrl612d7.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^
+||d1z58p17sqvg6o.cloudfront.net^
 ||d1zjpzpoh45wtm.cloudfront.net^
 ||d1zjr9cc2zx7cg.cloudfront.net^
 ||d204slsrhoah2f.cloudfront.net^
@@ -17985,6 +17968,8 @@ _800x80_
 ||d2dkurdav21mkk.cloudfront.net^
 ||d2e30rravz97d4.cloudfront.net^
 ||d2edfzx4ay42og.cloudfront.net^
+||d2ele6m9umnaue.cloudfront.net^
+||d2elslrg1qbcem.cloudfront.net^
 ||d2er1uyk6qcknh.cloudfront.net^
 ||d2eyuq8th0eqll.cloudfront.net^
 ||d2fbkzyicji7c4.cloudfront.net^
@@ -18019,6 +18004,7 @@ _800x80_
 ||d2nz8k4xyoudsx.cloudfront.net^
 ||d2o03z2xnyxlz5.cloudfront.net^
 ||d2o51l6pktevii.cloudfront.net^
+||d2ob4whwpjvvpa.cloudfront.net^
 ||d2ohmkyg5w2c18.cloudfront.net^
 ||d2oy22m6xey08r.cloudfront.net^
 ||d2p3vqj5z5rdwv.cloudfront.net^
@@ -18051,6 +18037,7 @@ _800x80_
 ||d30tme16wdjle5.cloudfront.net^
 ||d30ts2zph80iw7.cloudfront.net^
 ||d313lzv9559yp9.cloudfront.net^
+||d31m6w8i2nx65e.cloudfront.net^
 ||d31mxuhvwrofft.cloudfront.net^
 ||d31o2k8hutiibd.cloudfront.net^
 ||d31ph8fftb4r3x.cloudfront.net^
@@ -18091,6 +18078,7 @@ _800x80_
 ||d3cl0ipbob7kki.cloudfront.net^
 ||d3cod80thn7qnd.cloudfront.net^
 ||d3cpib6kv2rja7.cloudfront.net^
+||d3d9gb3ic8fsgg.cloudfront.net^
 ||d3dq1nh1l1pzqy.cloudfront.net^
 ||d3ec0pbimicc4r.cloudfront.net^
 ||d3ej838ds58re9.cloudfront.net^
@@ -18142,16 +18130,19 @@ _800x80_
 ||d3rkkddryl936d.cloudfront.net^
 ||d3rr3d0n31t48m.cloudfront.net^
 ||d3rxqouo2bn71j.cloudfront.net^
+||d3sof4x9nlmbgy.cloudfront.net^
 ||d3t3bxixsojwre.cloudfront.net^
 ||d3t3lxfqz2g5hs.cloudfront.net^
 ||d3t3z4teexdk2r.cloudfront.net^
 ||d3t87ooo0697p8.cloudfront.net^
 ||d3tfeohk35h2ye.cloudfront.net^
 ||d3tjml0i5ek35w.cloudfront.net^
+||d3tnmn8yxiwfkj.cloudfront.net^
 ||d3tozt7si7bmf7.cloudfront.net^
 ||d3u43fn5cywbyv.cloudfront.net^
 ||d3u598arehftfk.cloudfront.net^
 ||d3ubdcv1nz4dub.cloudfront.net^
+||d3uvwdhukmp6v9.cloudfront.net^
 ||d3v3bqdndm4erx.cloudfront.net^
 ||d3vnm1492fpnm2.cloudfront.net^
 ||d3vp85u5z4wlqf.cloudfront.net^
@@ -18163,9 +18154,12 @@ _800x80_
 ||d63a3au5lqmtu.cloudfront.net^
 ||d6cto2pyf2ks.cloudfront.net^
 ||d6deij4k3ikap.cloudfront.net^
+||d6l5p6w9iib9r.cloudfront.net^
 ||d7016uqa4s0lw.cloudfront.net^
 ||d7dza8s7j2am6.cloudfront.net^
+||d7jpk19dne0nn.cloudfront.net^
 ||d7po8h5dek3wm.cloudfront.net^
+||d7tst6bnt99p2.cloudfront.net^
 ||d8dcj5iif1uz.cloudfront.net^
 ||d91i6bsb0ef59.cloudfront.net^
 ||d9c5dterekrjd.cloudfront.net^
@@ -18180,6 +18174,7 @@ _800x80_
 ||dby7kx9z9yzse.cloudfront.net^
 ||dc5k8fg5ioc8s.cloudfront.net^
 ||dcai7bdiz5toz.cloudfront.net^
+||dczhbhtz52fpi.cloudfront.net^
 ||ddlh1467paih3.cloudfront.net^
 ||ddrvjrfwnij7n.cloudfront.net^
 ||ddvbjehruuj5y.cloudfront.net^
@@ -18209,6 +18204,7 @@ _800x80_
 ||dlooqrhebkjoh.cloudfront.net^
 ||dlrioxg1637dk.cloudfront.net^
 ||dltqxz76sim1s.cloudfront.net^
+||dltvkwr7nbdlj.cloudfront.net^
 ||dm7gsepi27zsx.cloudfront.net^
 ||dm7ii62qkhy9z.cloudfront.net^
 ||dmg0877nfcvqj.cloudfront.net^
@@ -18260,6 +18256,7 @@ _800x80_
 ||dy5t1b0a29j1v.cloudfront.net^
 ||dyh1wzegu1j6z.cloudfront.net^
 ||dyj8pbcnat4xv.cloudfront.net^
+||dykwdhfiuha6l.cloudfront.net^
 ||dyodrs1kxvg6o.cloudfront.net^
 ||dyrfxuvraq0fk.cloudfront.net^
 ||dyv1bugovvq1g.cloudfront.net^
@@ -18269,6 +18266,7 @@ _800x80_
 ||dzu5p9pd5q24b.cloudfront.net^
 ||dzxr711a4yw31.cloudfront.net^
 ||adserving.unibet.com^$popup
+||affiliates.fantasticbet.com^$popup
 ||betzone2000.com^$popup
 ||chaturbate.com/affiliates/$popup
 ||cityscapestab.com^$popup
@@ -18853,6 +18851,7 @@ $popup,third-party,domain=hentai2read.com|porn-tube-club.com
 @@||global-uploads.webflow.com/*_dimensions-$image,domain=dimensions.com
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
 @@||go.ezodn.com/tardisrocinante/lazy_load.js?$script,domain=raiderramble.com
+@@||go.xlirdr.com/api/models/vast$xmlhttprequest
 @@||gocomics.com/assets/ad-dependencies-$script,~third-party
 @@||google.com/images/integrations/$image,~third-party
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=zubizu.com
