@@ -1,9 +1,17 @@
-! Checksum: MBJoDIcW5XPUUwOI4oqyPg
+! Checksum: BIl7tXTTap7C0FfHyRsQXg
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.4.88
-! TimeUpdated: 2023-10-15T05:31:29+00:00
+! Version: 2.3.4.91
+! TimeUpdated: 2023-10-15T13:06:02+00:00
 ! Expires: 4 days (update frequency)
+||tiesmmflv.com^
+||hyelgehg.xyz^
+||stoobsut.com^
+||maaphdiwuoetl.com^
+||hoseitfromtheot.com^
+||ionismscoldn.info^
+||szlipubod.com^
+||oscism.com^
 ||smatr.icu^
 ||cuyynol.com^
 ||cbshanld.com^
