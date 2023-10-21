@@ -1,9 +1,22 @@
-! Checksum: ywX8L4Z8YB/E0SFB2OXLow
+! Checksum: wHIcV4NwinW8s8FeIKK4qQ
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.5.86
-! TimeUpdated: 2023-10-21T04:31:30+00:00
+! Version: 2.3.5.88
+! TimeUpdated: 2023-10-21T15:31:29+00:00
 ! Expires: 4 days (update frequency)
+||xmverqdrjodohf.com^
+||eqrjuxvhvclqxw.xyz^
+||nesfspublicate.info^
+||sparusbewrap.space^
+||upstandhurls.website^
+||cheddaramusias.life^
+||lhbhibkuchmnxw.com^
+||mupufktvziob.com^
+||lizebruisiaculi.info^
+||stinicf.com^
+||hzoywchsp.com^
+||enchroe.com^
+||egbesnfzdfg.com^
 ||fykjhzjyjvx.com^
 ||flashb.id^
 ||provingavidity.com^
@@ -401,6 +414,7 @@
 ||amgload.net^$third-party
 !+ NOT_OPTIMIZED PLATFORM(windows, mac, android)
 ||hub.fghtem.com^$third-party
+||dupcczkfziyd3.cloudfront.net^
 ||d1cglulyxpv8sj.cloudfront.net^$all
 ||c.down.tube^
 ||d3pnod4lg28ix4.cloudfront.net^
@@ -7013,6 +7027,7 @@ _800x80_
 ||aiqidwcfrm.com^
 ||airairgu.com^
 ||airpush.com^
+||aistekso.net^
 ||aixcdn.com^
 ||aj1070.online^
 ||aj1090.online^
@@ -7381,6 +7396,7 @@ _800x80_
 ||b225.org^
 ||b2d43e2764.com^
 ||b397db8f50.com^
+||b4dda3f4a1.com^
 ||ba488608ee.com^
 ||baannre.com^
 ||babinjectbother.com^
@@ -7840,6 +7856,7 @@ _800x80_
 ||callyourinformer.com^
 ||calomelsiti.com^
 ||camberchimp.com^
+||cameesse.net^
 ||cammpaign.com^
 ||camschat.net^
 ||can-get-some.in^
@@ -8728,6 +8745,7 @@ _800x80_
 ||e702fa7de9d35c37.com^
 ||eabids.com^
 ||eacdn.com^
+||eajpryc.com^
 ||eargentssep.one^
 ||earlapspur.com^
 ||earnify.com^
@@ -9378,6 +9396,7 @@ _800x80_
 ||glssp.net^
 ||glugherg.net^
 ||glugreez.com^
+||glursihi.net^
 ||glvhvesvnp.com^
 ||glycylsrapped.com^
 ||gmihupgkozf.com^
@@ -10424,6 +10443,7 @@ _800x80_
 ||livestormy.com^
 ||livezombymil.com^
 ||lixsbdifa.com^
+||lizebruisiaculi.info^
 ||lkdazrtkame.com^
 ||lklofubgk.com^
 ||lkpmprksau.com^
@@ -10486,6 +10506,7 @@ _800x80_
 ||lr-in.com^
 ||lraonxdikxi.com^
 ||lrcdjqw.com^
+||lrkenrerjkbly.top^
 ||lsqzxexvphk.com^
 ||lsvblpynuezkbf.com^
 ||ltaqqgvitq.com^
@@ -10575,6 +10596,7 @@ _800x80_
 ||mainadv.com^
 ||mainapiary.com^
 ||mainroll.com^
+||maioux.xyz^
 ||maipofok.net^
 ||majomalonic.com^
 ||major-t-code.com^
@@ -10690,6 +10712,7 @@ _800x80_
 ||mesqwrte.net^
 ||messagereceiver.com^
 ||messenger-notify.xyz^
+||messymeter.com^
 ||metalbow.com^
 ||meteorclashbailey.com^
 ||metrica-yandex.com^
@@ -10865,6 +10888,7 @@ _800x80_
 ||mr2cnjuh34jb.com^
 ||mrlscr.com^
 ||mrtnsvr.com^
+||mryinerg.com^
 ||msads.net^
 ||msgose.com^
 ||mshago.com^
@@ -10983,6 +11007,7 @@ _800x80_
 ||neoftheownouncillo.info^
 ||nereserv.com^
 ||nergyflexibilit.pics^
+||nesfspublicate.info^
 ||nesokiahld.com^
 ||nessainy.net^
 ||nestledmph.com^
@@ -11528,6 +11553,7 @@ _800x80_
 ||peekaure.xyz^
 ||peelaipu.xyz^
 ||peeredgerman.com^
+||peethach.com^
 ||pegloang.com^
 ||pejzeexukxo.com^
 ||pelamydlours.com^
@@ -11554,6 +11580,7 @@ _800x80_
 ||pervialinagile.com^
 ||petasusawber.com^
 ||petchesa.net^
+||petchoub.com^
 ||pettedcres.com^
 ||pfactgmb.xyz^
 ||pfulhwxjeoi.com^
@@ -11948,6 +11975,7 @@ _800x80_
 ||purpleads.io^
 ||purplepatch.online^
 ||purplewinds.xyz^
+||purposeparking.com^
 ||pursuesananite.com^
 ||puserving.com^
 ||push-notifications.top^
@@ -13720,6 +13748,7 @@ _800x80_
 ||vpipi.com^
 ||vpixrlkggv.com^
 ||vpn1.cfd^
+||vpop2.com^
 ||vprtrfc.com^
 ||vpumfeghiall.com^
 ||vpwhhtpwhmd.com^
@@ -13864,6 +13893,7 @@ _800x80_
 ||whirlwindofnews.com^
 ||whisperofisaak.com^
 ||whitenoisenews.com^
+||whoaksoo.com^
 ||whodouth.net^
 ||wholeactualjournal.com^
 ||wholeactualnewz.com^
@@ -14253,6 +14283,7 @@ _800x80_
 ||ztnibpbkl.com^
 ||ztumuvofzbfe.com^
 ||zubivu.com^
+||zubojcnubadk.com^
 ||zucks.net^
 ||zumrieth.com^
 ||zunsoach.com^
@@ -14279,6 +14310,7 @@ _800x80_
 ||4dsply.com^$third-party
 ||aaddcount.com^$third-party
 ||aanetwork.vn^$third-party
+||ad-adapex.io^$third-party
 ||ad.plus^$third-party
 ||ad.style^$third-party
 ||ad4989.co.kr^$third-party
@@ -14850,6 +14882,7 @@ _800x80_
 ||onetouch20.com^$popup
 ||onsukultingecauy.com^$popup
 ||oopatet.com^$popup
+||opparasecton.com^$popup
 ||optimizesrv.com^$popup
 ||optnx.com^$popup
 ||optzsrv.com^$popup
@@ -14860,6 +14893,7 @@ _800x80_
 ||patoionanrumand.com^$popup
 ||paxsfiss.com^$popup
 ||peacockshudder.com^$popup
+||peethach.com^$popup
 ||pemsrv.com^$popup
 ||phumpauk.com^$popup
 ||playstretch.host^$popup
@@ -14937,6 +14971,7 @@ _800x80_
 ||wargaming-aff.com^$popup
 ||waspishamendbulb.com^$popup
 ||waufooke.com^$popup
+||we-are-anon.com^$popup
 ||webmedrtb.com^$popup
 ||wendelstein-1b.com^$popup
 ||whairtoa.com^$popup
