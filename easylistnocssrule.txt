@@ -1,8 +1,8 @@
-! Checksum: G/M+m1b/lw583ztJpPWuQw
+! Checksum: 7c2byv4/Z7hBdm5SBoW0kw
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.5.93
-! TimeUpdated: 2023-10-22T02:31:29+00:00
+! Version: 2.3.5.97
+! TimeUpdated: 2023-10-22T15:31:33+00:00
 ! Expires: 4 days (update frequency)
 ||xmverqdrjodohf.com^
 ||eqrjuxvhvclqxw.xyz^
@@ -6546,6 +6546,7 @@ _800x80_
 ||2track.info^
 ||329efb045e.com^
 ||341073be6e9db7d2.com^
+||34710af267.com^
 ||360yield-basic.com^
 ||360yield.com^
 ||36b7ca5028.com^
@@ -7156,6 +7157,7 @@ _800x80_
 ||annoynoveltyeel.com^
 ||anomalousporch.com^
 ||anopportunitytost.info^
+||anpptedtah.com^
 ||antananarbdivu.com^
 ||anteog.com^
 ||anthonypush.com^
@@ -7305,6 +7307,7 @@ _800x80_
 ||atthewon.buzz^
 ||attributedconcernedamendable.com^
 ||atwola.com^
+||aubsehog.net^
 ||auburn9819.com^
 ||audienceline.com^
 ||audienceravagephotocopy.com^
@@ -8819,6 +8822,7 @@ _800x80_
 ||emxdgt.com^
 ||enastamo.info^
 ||enbclpbyi.com^
+||enchroe.com^
 ||encounterfidelityarable.com^
 ||encouragingpistolassemble.com^
 ||endangersquarereducing.com^
@@ -9656,6 +9660,7 @@ _800x80_
 ||hingfruitiesma.info^
 ||hip-97166b.com^
 ||hipersushiads.com^
+||hippusanglist.com^
 ||hiprofitnetworks.com^
 ||hipunaux.com^
 ||historicalcargo.com^
@@ -10135,6 +10140,7 @@ _800x80_
 ||jyrcqzjjachlk.com^
 ||jyrypezzzd.com^
 ||jztchllgpcrwu.com^
+||kabscarbide.com^
 ||kaifiluk.com^
 ||kaiu-marketing.com^
 ||kaiviwoo.com^
@@ -13426,6 +13432,7 @@ _800x80_
 ||ulmoyc.com^
 ||uloadeeksurvey.space^
 ||ulourgaz.net^
+||ulseugnrmnrww.com^
 ||umekana.ru^
 ||umexalim.com^
 ||umiackscursors.com^
@@ -13987,6 +13994,7 @@ _800x80_
 ||wumpakuw.net^
 ||wumufama.com^
 ||wuzbhjpvsf.com^
+||wvpfumotgpsfy.com^
 ||wwfx.xyz^
 ||www6.hentai-zone.com^
 ||wxhiojortldjyegtkx.bid^
@@ -15049,6 +15057,7 @@ _800x80_
 ||1348457791.rsc.cdn77.org^
 ||1356894170.rsc.cdn77.org^
 ||1409674995.rsc.cdn77.org^
+||1423653471.rsc.cdn77.org^
 ||1431327521.rsc.cdn77.org^
 ||1436653548.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
@@ -15065,6 +15074,7 @@ _800x80_
 ||1786830340.rsc.cdn77.org^
 ||1806217162.rsc.cdn77.org^
 ||1809442125.rsc.cdn77.org^
+||1819289999.rsc.cdn77.org^
 ||1857169728.rsc.cdn77.org^
 ||1871869301.rsc.cdn77.org^
 ||1917697853.rsc.cdn77.org^
@@ -15104,6 +15114,7 @@ _800x80_
 ||affiliate.juno.co.uk^
 ||affiliatepluginintegration.cj.com^
 ||alarmsportsnetwork.com^$third-party
+||allsportsflix.
 ||amazonaws.com^$domain=downloadpirate.com|hexupload.net|krunkercentral.com|uploadhaven.com
 ||an.yandex.ru^$domain=~e.mail.ru
 ||app.clickfunnels.com^$~stylesheet
