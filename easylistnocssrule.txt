@@ -1,8 +1,8 @@
-! Checksum: zE+4XljxCfDsxL5Qtp6BVA
+! Checksum: nlQBuZ31bDvFwuOcZxRqyA
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.7.97
-! TimeUpdated: 2023-11-04T07:31:45+00:00
+! Version: 2.3.8.0
+! TimeUpdated: 2023-11-04T13:03:25+00:00
 ! Expires: 4 days (update frequency)
 ||zogrepsili.com^
 ||vidsfull.online^
