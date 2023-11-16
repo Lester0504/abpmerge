@@ -1,8 +1,8 @@
-! Checksum: A1+lyqFFkveTRS5fSslsog
+! Checksum: VIrxHmpCl8OqTw0Li0UcSw
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.9.84
-! TimeUpdated: 2023-11-16T07:31:38+00:00
+! Version: 2.3.9.92
+! TimeUpdated: 2023-11-16T15:32:53+00:00
 ! Expires: 4 days (update frequency)
 ||lhiswrkt.com^
 ||vemtecko.net^
@@ -1737,6 +1737,7 @@ deloplen.com$$script[max-length="0"]
 ||nextech.sk/files/photo/*left.jpg
 ||nextech.sk/files/photo/*right.jpg
 ||alza.cz^$domain=nikee.net
+||zive.cz/bundle_js.ashx$replace=/function\(\){try{if\(\(eval\(atob[\s\S]*?}}}\,/function(){}\,/
 @@||ewrc.cz/js/pagead.js
 @@/_js/pubfig.min.js$~third-party,domain=svethardware.cz|relaxuj.cz|svetmobilne.cz|digimanie.cz
 ||static.primacdn.cz/sas/ads/templates/creatives.js
@@ -1877,6 +1878,7 @@ walla.co.il$$script[wildcard="*<=0x0||*new Uint8Array*"][min-length="50000"][max
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ynet.co.il
 ||ynet.co.il/*/Teaser/MarketSchedual_
 !+ NOT_OPTIMIZED
+||components2.*.it/rcs_tealium/
 ||highlights.legaseriea.it^$referrerpolicy=origin
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=highlights.legaseriea.it
 !+ PLATFORM(android, windows, mac)
@@ -1984,6 +1986,7 @@ radio.pl$$script[tag-content="Flags."][min-length="20000"][max-length="300000"]
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 yafud.pl$$script[tag-content="BlockAdBlock.prototype"][min-length="5000"][max-length="10000"]
+||cdn.12341234.pl/editag/*/prod/editag.min.js
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
@@ -3106,7 +3109,7 @@ $domain=adserver.juicyads.com
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 ||outlook.live.com/ows/*/OutlookOptions/AdsAggregate
-/^https:\/\/check-host\.net\/images\/[a-z]?[0-9]?[0-9]?[0-9]?_?[0-9]+[a-z]+(_|[0-9]?[a-z-])+(s?ale|en|ru)?\.png\?[0-9]+$/$domain=check-host.net
+/^https:\/\/check-host\.net\/images\/[a-z]?[a-z]?[a-z]?[0-9]?[0-9]?[0-9]?_?[0-9]+[a-z]+(_|[0-9]?[a-z-])+(s?ale|en|ru)?\.png\?[0-9]+$/$domain=check-host.net
 ||facebook.com/ajax/bnzai*__comet_req=
 /banners/*$domain=2ip.io|2ip.ru
 /x-kinja-static/assets/new-client/adManager$domain=avclub.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|qz.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
@@ -3427,6 +3430,9 @@ partner.ads.js$domain=d3ward.github.io
 $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
+@@||cmp.inmobi.com/choice/*/choice.js$domain=express.co.uk
+@@||cmp.inmobi.com/tcfv2/*.js$domain=express.co.uk
+@@||cmp.inmobi.com/*/vendor-list-*.json$domain=express.co.uk
 !+ PLATFORM(windows, mac, android)
 @@://www.atlassian.com^$elemhide,jsinject,extension
 @@/clickn(download|upload)\.[a-z]{3,5}/$script,xmlhttprequest,domain=clickndownload.org|clicknupload.click|clicknupload.link|clicknupload.red|clicknupload.vip|clicknupload.xyz
@@ -5039,8 +5045,8 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /adlayer.php
 /adlib.js
 /adlog.php
-/admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.opera.com|~admanager.roku.com|~admanager.sevio.app
-/admanager/*$~object,domain=~blog.google|~konograma.com
+/admanager.$~object,~xmlhttprequest,domain=~admanager.alzura.com|~admanager.google.com|~admanager.line.biz|~admanager.opera.com|~admanager.roku.com|~admanager.sevio.app
+/admanager/*$~object,domain=~admanager.line.biz|~blog.google|~konograma.com
 /admgr.
 /admitad.js
 /adModule.
@@ -15593,6 +15599,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||mysmth.net/nForum/*/ADAgent_$~third-party
 @@||netmile.co.jp/ad/images/$image
 @@||nintendo.co.jp/ring/*/adv$~third-party
+@@||oishi-kenko.com/kenko/assets/v2/ads/$~third-party
 @@||point.rakuten.co.jp/img/crossuse/top_ad/$~third-party
 @@||politiken.dk/static/$script
 @@||popin.cc/popin_discovery/recommend?$~third-party
