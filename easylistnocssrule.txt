@@ -1,9 +1,11 @@
-! Checksum: daK+wqY0hVhWcEitL5GcjA
+! Checksum: SmI1NHAGU4ekQtvQCV+a/A
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.10.96
-! TimeUpdated: 2023-11-24T07:31:37+00:00
+! Version: 2.3.11.4
+! TimeUpdated: 2023-11-24T15:31:42+00:00
 ! Expires: 4 days (update frequency)
+||prosocrawn.com^
+||geometryworstaugust.com^
 ||cpcstdploqqh.com^
 ||psedregn.net^
 ||edvxygh.com^
@@ -3388,6 +3390,7 @@ $domain=adserver.juicyads.com
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
+||onejav.com^$referrerpolicy=origin
 ||twitter.com/i/api/graphql/*/HomeLatestTimeline$jsonprune=\$.data.home.home_timeline_urt.instructions..entries..[?(key-substr 'entryId' 'promoted-tweet-')]
 ||twitter.com/i/api/graphql/*/TweetDetail$jsonprune=\$.data.threaded_conversation_with_injections_v2.instructions..entries.[?(has "\$.content.items..item.itemContent.promotedMetadata.advertiser_results")]
 !+ NOT_OPTIMIZED
