@@ -1,9 +1,16 @@
-! Checksum: MWDKxHfT2nQqcM8Xh5Zq7A
+! Checksum: 8nPNqSdqscKRYe1WPW7Ptw
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.11.11
-! TimeUpdated: 2023-11-25T05:03:24+00:00
+! Version: 2.3.11.14
+! TimeUpdated: 2023-11-25T14:31:32+00:00
 ! Expires: 4 days (update frequency)
+||fmorugnmnihrcv.com^
+||oulrarta.net^
+||cdosagebreakfast.com^
+||unpaundlagot.com^
+||onservantas.org^
+||vvzzphefzcdfr.com^
+||qxiabfmmtjhyv.com^
 ||prosocrawn.com^
 ||geometryworstaugust.com^
 ||cpcstdploqqh.com^
@@ -589,6 +596,7 @@
 !+ NOT_OPTIMIZED PLATFORM(windows, mac, android)
 ||hub.fghtem.com^$third-party
 ||adconsent.samsungrs.com^
+||dppaivsn6f9dy.cloudfront.net^
 ||dv663fc06d35i.cloudfront.net^
 ||pbcs.realtor.com^
 ||d108nnfn2eigw4.cloudfront.net^
@@ -14938,6 +14946,7 @@ _800x80_
 ||bestblackhatforum.com/images/my_compas/
 ||bitcotasks.com/je.php
 ||bordeaux.futurecdn.net^
+||bullchat.com/sponsor/
 ||calguns.net/images/ad
 ||calmclinic.com/srv/
 ||cdnads.geeksforgeeks.org^
