@@ -1,9 +1,29 @@
-! Checksum: MJrkBh5IqU+1/IzP4KCV6g
+! Checksum: 5UqEcWOfGIoBZMt7h4ZcNA
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.12.2
-! TimeUpdated: 2023-12-01T07:31:34+00:00
+! Version: 2.3.12.10
+! TimeUpdated: 2023-12-01T15:31:37+00:00
 ! Expires: 4 days (update frequency)
+||nutgxfwechkcuf.com^
+||koustouk.net^
+||hkifcxblsu.com^
+||mvujvxc.com^
+||gjjvjbe.com^
+||sociallytight.com^
+||tontrinevengre.com^
+||dthechildren.org^
+||ptugnoaw.net^
+||qwqeifbsbxqozy.com^
+||npyqwxlztwlea.com^
+||actressdoleful.com^
+||sqhyjfbckqrxd.xyz^
+||toaglaun.xyz^
+||cvuvoljuqlkeuc.com^
+||gloogruk.com^
+||mcxmke.com^
+||crmentjg.com^$all
+||crmpt.livejasmin.com^$all
+||twinrdsrv.com^$all
 ||attendingtarget.com^
 ||kgsehayyvhk.com^
 ||pyzwxkb.com^
@@ -651,6 +671,7 @@
 !+ NOT_OPTIMIZED PLATFORM(windows, mac, android)
 ||hub.fghtem.com^$third-party
 ||adconsent.samsungrs.com^
+||d3u8vuldqjolr7.cloudfront.net^
 ||d2lzu2a5ishr7o.cloudfront.net^
 ||d2o8i1jpfoso49.cloudfront.net^
 ||d1r3ddyrqrmcjv.cloudfront.net^
@@ -2865,7 +2886,6 @@ $script,third-party,denyallow=cloudcdn.monster|gstatic.com|cloudflare.com|jsdeli
 ||cdn.staticneo.com/*/prebidneo*.js
 ||timeanddate.com/common/prebidtad.
 ||showboxmovies.net/ajax/banner
-||i.imgur.com/f0FSNTu.jpg
 ||anysex.com/rtb2.php?spot_id=$xmlhttprequest,redirect=nooptext
 ||lookmovie*/images/ads/
 ||novelcool.com/files/js/auto_ads.js
@@ -2908,7 +2928,6 @@ $script,third-party,denyallow=cloudcdn.monster|gstatic.com|cloudflare.com|jsdeli
 ||cdn.jsdelivr.net/npm/@fancyapps/$domain=hcbdsm.com
 ||boundhub.com/sab/$image
 ||i.imgur.com/LJBMhkQ.gif
-||i.imgur.com/vPU6ACq.gif
 ||service.iwara.tv/*/*.php?zones=
 ||static-cdn.spot.im/production/ads/tags/v*/ads/ads.js
 ||fmovies.*/ajax/banner
@@ -3267,6 +3286,10 @@ $domain=adserver.juicyads.com
 /^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|bid|link|live|online|top|club)\/\/?(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,third-party,redirect=noopjs
 /(?:com|net)\/[a-z-]{3,10}\.html$/$subdocument,~third-party,domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
 /(?:com|net)\/[0-9a-f]{12}\.js$/$script,~third-party,domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
+!+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
@@ -4371,7 +4394,6 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||mediaplex.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||pepperjamnetwork.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||pjtra.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
-@@||retailmenot.com^$jsinject
 @@||tkqlhce.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||webgains.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||ryanair.com/static/
@@ -4450,23 +4472,11 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||card-form.diehard.yandex.net^$stealth=referrer
 !+ PLATFORM(windows, mac, android)
 @@||www.nzherald.co.nz^$stealth=useragent
-@@||headlinessportsfoot.com/chunklist$stealth=referrer
-@@||ainakwalajeen.com*/hls/*.m3u8$stealth=referrer
-@@||live.livegoal.online/playstream$stealth=referrer
-@@||weak.hiweak*.store/live$stealth=referrer
-@@||bfst.live/scripts/*.m3u8$stealth=referrer
-@@||101streams.net/scripts/$stealth=referrer
-@@||us.hdtvcloud.com/v1/channel$stealth=referrer
-@@||cdnrecruit.net$xmlhttprequest,stealth=referrer
-@@||hlsjs.ru/*.ts$stealth=referrer
-@@/premium*/tracks-$stealth=referrer
-@@||noshwsmkm.com*/hls/$stealth=referrer
-@@||weblivehdplay.ru/premiumtv$stealth=referrer
-@@||webhd.ru/*/premium$stealth=referrer
-@@||olalivehdplay.ru/premiumtv$stealth=referrer
-@@||thegentleclass.xyz/hls/$stealth=referrer
-@@||cdnstrength.net*/hls$stealth=referrer
-@@||main.jyujdr.space/*style$stealth=referrer
+@@premium$stealth=referrer,xmlhttprequest,domain=olalivehdplay.ru|weblivehdplay.ru
+@@premium*.php$stealth=referrer,subdocument,domain=venushd.click
+@@/scripts/MTY2Njc$xmlhttprequest,stealth=referrer,domain=1stream.eu
+@@/chunklist.m3u8$xmlhttprequest,stealth=referrer,domain=niaomea.me
+@@/media*.ts$xmlhttprequest,stealth=referrer,domain=niaomea.me
 @@||virtualearth.net^$stealth,domain=bing.com
 @@||vdncloud.org/iframe/$stealth=referrer
 @@.php?play_vid=$subdocument,stealth=referrer,domain=xyflv.cc
@@ -6747,6 +6757,7 @@ _800x80_
 ||360yield.com^
 ||3dfcff2ec15099df0a24ad2cee74f21a.com^
 ||3e950d4353.com^
+||3edcc83467.com^
 ||3lift.com^
 ||3myad.com^
 ||4087aa0dc1.com^
@@ -8612,6 +8623,7 @@ _800x80_
 ||dimcarnie.com^
 ||dimedoncywydd.com^
 ||dimessing-parker.com^
+||dinerpropagandatoothbrush.com^
 ||diningsovereign.com^
 ||dinomicrummies.com^
 ||dipseypurism.com^
@@ -8766,6 +8778,7 @@ _800x80_
 ||dt4ever.com^
 ||dt51.net^
 ||dtadnetwork.com^
+||dthechildren.org^
 ||dtmpub.com^
 ||dtmvpkn.com^
 ||dtprofit.com^
@@ -9751,6 +9764,7 @@ _800x80_
 ||hostave4.net^
 ||hostingcloud.racing^
 ||hosupshunk.com^
+||hotkabachok.com^
 ||hotnews1.me^
 ||hotstretchdove.com^
 ||hottercensorbeaker.com^
@@ -9772,6 +9786,7 @@ _800x80_
 ||hrhufhhay.com^
 ||htdvt.com^
 ||htintpa.tech^
+||htkcm.com^
 ||htlbid.com^
 ||htufhvsglyoy.com^
 ||hubhubhub.name^
@@ -10421,6 +10436,7 @@ _800x80_
 ||livelihoodpracticaloperating.com^
 ||livezombymil.com^
 ||lizebruisiaculi.info^
+||lkbnneknzrne.top^
 ||lkjkbjnalnqnb.top^
 ||lkjoncgixi.com^
 ||lkpmprksau.com^
@@ -10864,6 +10880,7 @@ _800x80_
 ||mvcwfqntrnatng.com^
 ||mvdwjofacq.com^
 ||mvlvxzhxjci.com^
+||mvujvxc.com^
 ||mwazhey.com^
 ||mwemsias.com^
 ||mxatooknlavb.com^
@@ -12982,6 +12999,7 @@ _800x80_
 ||temperrunnersdale.com^
 ||tend-new.com^
 ||tenderlywomblink.com^
+||tendernessknockout.com^
 ||tensagesic.com^
 ||tensorsbancos.com^
 ||tenthsfrumpy.com^
@@ -13099,6 +13117,8 @@ _800x80_
 ||tomatohackblobs.com^
 ||tomeleafs.com^
 ||tonemedia.com^
+||tonicneighbouring.com^
+||tontrinevengre.com^
 ||toolsyjejunen.com^
 ||toothacheformer.com^
 ||toothbrushlimbperformance.com^
@@ -13480,6 +13500,7 @@ _800x80_
 ||venmanisatio.work^
 ||venomoussolidhow.com^
 ||verbcardinal.com^
+||veritiesgarlejobade.com^
 ||verninchange.com^
 ||vernondesigninghelmet.com^
 ||veronalhaf.com^
@@ -13528,6 +13549,7 @@ _800x80_
 ||viibest.com^
 ||viidirectory.com^
 ||viifogyp.com^
+||vijcwykceav.com^
 ||vilereasoning.com^
 ||vindicosuite.com^
 ||violationphysics.click^
