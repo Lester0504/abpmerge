@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Fri, 15 Dec 2023 16:01:06 GMT</b></td>
+<td><b class=blue>Wed, 20 Dec 2023 12:32:03 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3781 / 3781</b></td>
+<td><b class=blue>3782 / 3782</b></td>
 </tr>
 
 </table>
@@ -64,10 +64,10 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 !
 !For more information about this list, see: https://pgl.yoyo.org/adservers/
 !----
-!Last modified: Fri, 15 Dec 2023 16:01:06 GMT
+!Last modified: Wed, 20 Dec 2023 12:32:03 GMT
 !Homepage:      https://pgl.yoyo.org/adservers/
 !Format:        adblockplus
-!Entries:       3781
+!Entries:       3782
 !Credits:       Peter Lowe - pgl@yoyo.org - pgl on github - https://pgl.yoyo.org/
 !This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus
 !Policy:        https://pgl.yoyo.org/adservers/policy.php
@@ -3065,6 +3065,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||scaredswing.com^
 ||scarfsmash.com^
 ||scatteredheat.com^
+||scatteredquiver.com^
 ||scintillatingscissors.com^
 ||scintillatingsilver.com^
 ||scintillatingspace.com^
