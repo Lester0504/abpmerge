@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Wed, 20 Dec 2023 12:32:03 GMT</b></td>
+<td><b class=blue>Thu, 21 Dec 2023 14:03:25 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3782 / 3782</b></td>
+<td><b class=blue>3785 / 3785</b></td>
 </tr>
 
 </table>
@@ -64,10 +64,10 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 !
 !For more information about this list, see: https://pgl.yoyo.org/adservers/
 !----
-!Last modified: Wed, 20 Dec 2023 12:32:03 GMT
+!Last modified: Thu, 21 Dec 2023 14:03:25 GMT
 !Homepage:      https://pgl.yoyo.org/adservers/
 !Format:        adblockplus
-!Entries:       3782
+!Entries:       3785
 !Credits:       Peter Lowe - pgl@yoyo.org - pgl on github - https://pgl.yoyo.org/
 !This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus
 !Policy:        https://pgl.yoyo.org/adservers/policy.php
@@ -1611,11 +1611,14 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||customad.cnn.com^
 ||customads.co^
 ||customers.kameleoon.com^
+||cutcurrent.com^
 ||cutechin.com^
 ||cutecushion.com^
 ||cuteturkey.com^
 ||cxense.com^
 ||cyberbounty.com^
+||d-collect.jennifersoft.com^
+||d-collector.jennifersoft.com^
 ||d.adroll.com^
 ||d1f0tbk1v3e25u.cloudfront.net^
 ||d2cmedia.ca^
