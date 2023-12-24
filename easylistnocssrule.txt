@@ -1,8 +1,8 @@
-! Checksum: WRYaxjysvSASV4pP0Ix8vg
+! Checksum: yQeeQhyshlDNFWKNYoF11Q
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.15.23
-! TimeUpdated: 2023-12-24T01:03:30+00:00
+! Version: 2.3.15.26
+! TimeUpdated: 2023-12-24T15:31:39+00:00
 ! Expires: 4 days (update frequency)
 ||elfnxscnmtao.com^
 ||etxahpe.com^
@@ -7173,6 +7173,7 @@ _800x80_
 ||articlegarlandferment.com^
 ||articlepawn.com^
 ||artonsbewasand.com^
+||artoukfarepu.org^
 ||arvbjqavenjba.top^
 ||arvigorothan.com^
 ||aryabzerznlvn.top^
@@ -7313,6 +7314,7 @@ _800x80_
 ||awswayful.space^
 ||awtpguxqtf.com^
 ||awtqbjylk.com^
+||awvqfalackho.com^
 ||axkwmsivme.com^
 ||axzxkeawbo.com^
 ||ay.delivery^
@@ -7332,6 +7334,7 @@ _800x80_
 ||b225.org^
 ||b397db8f50.com^
 ||b4dda3f4a1.com^
+||b50faca981.com^
 ||b5c28f9b84.com^
 ||b65415fde6.com^
 ||b70f0a4569.com^
@@ -7865,6 +7868,7 @@ _800x80_
 ||cassiusazide.com^
 ||casualhappily.com^
 ||catastropheillusive.com^
+||cationinin.com^
 ||causingguard.com^
 ||cauthaushoas.com^
 ||caveestate.com^
@@ -8906,6 +8910,7 @@ _800x80_
 ||etnacsqssv.com^
 ||etougais.net^
 ||etretantothis.com^
+||etxahpe.com^
 ||euizhltcd6ih.com^
 ||eulogiafilial.com^
 ||euosicjxjv.com^
@@ -9499,6 +9504,7 @@ _800x80_
 ||gpsecureads.com^
 ||gqaecrxbj.com^
 ||gqcmqihonrx.com^
+||gqtnjdflx.com^
 ||gracedschelly.com^
 ||graceofnoon.com^
 ||gracesmallerland.com^
@@ -9586,6 +9592,7 @@ _800x80_
 ||gwallet.com^
 ||gwfcpecnwwtgn.xyz^
 ||gwvjcrtucd.com^
+||gzakxmzydpkwr.com^
 ||gzcxtuxgqjrhz.com^
 ||h12-media.com^
 ||h2aek6rv0ard.com^
@@ -10157,6 +10164,7 @@ _800x80_
 ||jiokhvnqchnt.com^
 ||jiordgxkpglzm.com^
 ||jipo.io^
+||jitigkvqf.com^
 ||jizzensirrah.com^
 ||jjansomvfv.com^
 ||jjrvlrslb.com^
@@ -10220,6 +10228,7 @@ _800x80_
 ||juicyads.me^
 ||juicycash.net^
 ||jukseeng.net^
+||julbhzbwhcivj.com^
 ||julidanroebuck.com^
 ||jullyambery.net^
 ||julymedian2022news.com^
@@ -11094,6 +11103,7 @@ _800x80_
 ||nbottkauyy.com^
 ||nbucvfymvkyv.com^
 ||nceteventuryrem.com^
+||ncevipdjsuoln.com^
 ||ncvvfhex.com^
 ||ncxejhlardcbm.com^
 ||ndandinter.hair^
@@ -11242,6 +11252,7 @@ _800x80_
 ||npkzqlhtecxx.com^
 ||npracticalwhic.buzz^
 ||npyqwxlztwlea.com^
+||nqmfmnmqysei.com^
 ||nrqppdgnhaagjq.com^
 ||nsfwadds.com^
 ||nsjyfpo.com^
@@ -11660,6 +11671,7 @@ _800x80_
 ||pc5ads.com^
 ||pccasia.xyz^
 ||pcdgninekvch.com^
+||pchcwqsfaqpw.com^
 ||pcheahrdnfktvhs.xyz^
 ||pcirurrkeazm.com^
 ||pclk.name^
@@ -12541,6 +12553,7 @@ _800x80_
 ||rpzbfftekjdz.com^
 ||rqdcusltmryapg.com^
 ||rqfedjzveel.com^
+||rqgjvcea.com^
 ||rqnvci.com^
 ||rqtrk.eu^
 ||rqwel.com^
@@ -14314,6 +14327,7 @@ _800x80_
 ||xwlketvkzf.com^
 ||xwqea.com^
 ||xwqvytuiko.com^
+||xwxqdfmlsgir.com^
 ||xxdjxbvafjlw.com^
 ||xxlargepop.com^
 ||xxmaqoupnd.com^
@@ -14414,6 +14428,7 @@ _800x80_
 ||ytfezzava.com^
 ||ytihp.com^
 ||ytvigqwx.com^
+||yuduoljvxsilvq.com^
 ||yufbewrjjguc.com^
 ||yuhliqltbtv.com^
 ||yuhuads.com^
@@ -14486,6 +14501,7 @@ _800x80_
 ||zjbzzmnnkbjzy.top^
 ||zjupukgjuez.com^
 ||zjyeblzkajwba.top^
+||zkcvb.com^
 ||zlbvewof.com^
 ||zlink6.com^
 ||zlinkc.com^
