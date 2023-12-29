@@ -1,10 +1,11 @@
-! Checksum: 4rKkzvauv8yybgNzS2b3Iw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1703831700-3600.patch
+! Checksum: 47bmqF0b1fqY4lRgRgDecA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1703864156-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.15.78
-! TimeUpdated: 2023-12-29T06:32:11+00:00
+! Version: 2.3.15.85
+! TimeUpdated: 2023-12-29T15:32:37+00:00
 ! Expires: 5 days (update frequency)
+||azqqloborwwba.top^$all
 ||fipkcakk.com^
 ||hooglidi.net^
 ||ixxljgh.com^
@@ -442,6 +443,7 @@
 !+ NOT_OPTIMIZED PLATFORM(windows, mac, android)
 ||hub.fghtem.com^$third-party
 ||adconsent.samsungrs.com^
+||sponsor.imacdn.com^
 ||d3qvcyf9oa6vhw.cloudfront.net^
 ||d264dxqvolp03e.cloudfront.net^
 ||d2ovgc4ipdt6us.cloudfront.net^
@@ -866,7 +868,7 @@ kenhuav2scan.com,tutsnode.org,diznr.com,fairyhorn.cc,dcounter.space,m3uiptv.com,
 @@||cdn.adspirit.de/banner/_default/300x250.jpg$domain=streetdir.com|roaddir.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=streetdir.com|roaddir.com
 @@||tycoon.adspirit.net/adview.php^$domain=streetdir.com|roaddir.com
-||fundingchoicesmessages.google.com^$domain=video.repubblica.it|br0wsers.com|mathsspot.com|now.gg|aranzulla.it
+||fundingchoicesmessages.google.com^$domain=video.repubblica.it|br0wsers.com|mathsspot.com|now.gg|aranzulla.it|3bmeteo.com
 !+ NOT_OPTIMIZED
 ||okmp3.ru/js/plears.js
 !+ NOT_OPTIMIZED
@@ -936,8 +938,11 @@ ukposts.info,ruplayers.com$$script[tag-content="insertAdjacentHTML"]
 !+ NOT_OPTIMIZED
 serieslatinoamerica.tv$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-length="10000"]
 trshow.info$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-length="10000"]
+@@||nytimes.com/ads/$domain=panel.freemcserver.net
+@@||panel.freemcserver.net/adblock-detect/
 ||autoscout24.*/frontend-metrics/
 ||s.nitropay.com/2.gif?$image,redirect-rule=1x1-transparent.gif,domain=alltechnerd.com
+@@||ytlarge.com/youtube/css/adscroll.js
 ||zona11.com/public/js/dublocker.js
 @@||ams.cdn.arkadiumhosted.com/advertisement/video/stable/video-ads.js$domain=play.dictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=panel.waifly.com
@@ -3099,6 +3104,7 @@ $domain=adserver.juicyads.com
 /^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|bid|link|live|online|top|club)\/\/?(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,xmlhttprequest,third-party
 /^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|bid|link|live|online|top|club)\/\/?(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,third-party,redirect=noopjs
 /(?:com|net)\/[a-z-]{3,10}\.html$/$subdocument,~third-party,domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
+!+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
@@ -7797,6 +7803,7 @@ _800x80_
 ||buzzdancing.com^
 ||bvmcdn.com^
 ||bvmcdn.net^
+||bvtfutroyr.com^
 ||bvudraqxpl.com^
 ||bxacmsvmxb.com^
 ||byambipoman.com^
@@ -8338,6 +8345,7 @@ _800x80_
 ||d3c.site^
 ||d4d48974197052ea.com^
 ||d65a1fbe58.com^
+||d7c6491da0.com^
 ||d7e13aeb98.com^
 ||d95d5c2239.com^
 ||daailynews.com^
@@ -9361,6 +9369,7 @@ _800x80_
 ||gkoutpips.com^
 ||gkpvuyrgbbzu.com^
 ||gkrtmc.com^
+||gladthereis.org^
 ||glaiwhee.net^
 ||glamorousmixture.com^
 ||glamtina.com^
@@ -9661,6 +9670,7 @@ _800x80_
 ||hgx1.site^
 ||hgx1.space^
 ||hhbypdoecp.com^
+||hhjow.com^
 ||hhklc.com^
 ||hhkld.com^
 ||hibids10.com^
@@ -10037,6 +10047,7 @@ _800x80_
 ||ivurtdymntb.com^
 ||ixhbroslylgz.com^
 ||ixkofjcwzlz.com^
+||ixxljgh.com^
 ||iyfbodn.com^
 ||izitrckr.com^
 ||izlunwgx.com^
@@ -10122,6 +10133,7 @@ _800x80_
 ||jjrvlrslb.com^
 ||jkha742.xyz^
 ||jklpy.com^
+||jkzakzjwyolbl.top^
 ||jkzlillsss.com^
 ||jltdgjqgtbfyg.com^
 ||jmiqbfhoar.com^
@@ -10835,6 +10847,7 @@ _800x80_
 ||mllatydz.com^
 ||mlnybwnbwzhiy.com^
 ||mlvgxzenoiz.com^
+||mlvlesvw.com^
 ||mm-syringe.com^
 ||mmctsvc.com^
 ||mmmdn.net^
@@ -11555,6 +11568,7 @@ _800x80_
 ||panagiapivots.com^
 ||pannumregnal.com^
 ||panoz.xyz^
+||panpant.xyz^
 ||pansymerbaby.com^
 ||pantsurplus.com^
 ||panuelobriard.com^
@@ -11728,6 +11742,7 @@ _800x80_
 ||pjhbyaaadlw.com^
 ||pjivapiumeb.com^
 ||pjqchcfwtw.com^
+||pjyvgdpvjp.com^
 ||pk910324e.com^
 ||pkhhyool.com^
 ||pkklkcdn.com^
@@ -13811,6 +13826,7 @@ _800x80_
 ||vksegjhestouij.com^
 ||vkusbtnxubme.com^
 ||vlitag.com^
+||vlkkwxncamnq.com^
 ||vltwoizzckpp.com^
 ||vlvbyqgjqj.com^
 ||vmmcdn.com^
@@ -13838,6 +13854,7 @@ _800x80_
 ||vpipi.com^
 ||vpixrlkggv.com^
 ||vprtrfc.com^
+||vptzqnjwguap.com^
 ||vpwhhtpwhmd.com^
 ||vqflyvrshgjvqr.com^
 ||vqjvnjxbgnz.com^
@@ -14041,12 +14058,14 @@ _800x80_
 ||wishjus.com^
 ||wister.biz^
 ||witalfieldt.com^
+||withdedukication.com^
 ||withholdrise.com^
 ||witnessremovalsoccer.com^
 ||wizardunstablecommissioner.com^
 ||wl-cornholio.com^
 ||wledconsi.xyz^
 ||wlen1bty92.pro^
+||wlhzbbvtofot.com^
 ||wlmitgzbht.com^
 ||wmgtr.com^
 ||wmkyrbx.com^
@@ -14163,6 +14182,7 @@ _800x80_
 ||xatesfrgkifde.com^
 ||xawlop.com^
 ||xcec.ru^
+||xder1.fun^
 ||xdezxlbnpo.com^
 ||xdiwbc.com^
 ||xdmanage.com^
@@ -14170,6 +14190,7 @@ _800x80_
 ||xetlugupyug.com^
 ||xfahjal.com^
 ||xfbeobsutqtndp.com^
+||xfguylptuqw.com^
 ||xfiebjkmpp.com^
 ||xfwblpomxc.com^
 ||xfxssqakis.com^
@@ -14212,6 +14233,7 @@ _800x80_
 ||xpjjlgzqs.com^
 ||xporn.in^
 ||xqfwhxbfxhpjko.com^
+||xqzwtvjkjj.com^
 ||xruolsogwsi.com^
 ||xskctff.com^
 ||xszcdn.com^
@@ -14447,6 +14469,7 @@ _800x80_
 ||zxxgoikbqyiu.com^
 ||zybrdr.com^
 ||zyf03k.xyz^
+||zyijzosrnzfru.com^
 ||zylytavo.com^
 ||zyuzdmxel.com^
 ||zzhyebbt.com^
@@ -15904,10 +15927,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||4wank.com/bump/
 ||adult-sex-games.com/images/adult-games/
 ||akiba-online.com/data/siropu/
-||alaska.xhamster.com^
-||alaska.xhamster.desi^
-||alaska.xhamster2.com^
-||alaska.xhamster3.com^
 ||anyporn.com/aa/
 ||asg.faperoni.com^
 ||avn.com/server/
@@ -15916,6 +15935,10 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||bravoteens.com/ta/
 ||bravotube.net/cc/
 ||bravotube.net/js/clickback.js
+||brick.xhamster.com^
+||brick.xhamster.desi^
+||brick.xhamster2.com^
+||brick.xhamster3.com^
 ||camvideos.tv^$subdocument
 ||cdn3x.com/xxxdan/js/xxxdan.vast.
 ||cover.ydgal.com/axfile/
