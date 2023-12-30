@@ -1,9 +1,9 @@
-! Checksum: PeArgrnqVtC9qgMm7fmeRA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1703910911-3600.patch
+! Checksum: QuC3+pBMoQNnYdByY1agew
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1703950524-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.15.96
-! TimeUpdated: 2023-12-30T04:32:27+00:00
+! Version: 2.3.15.99
+! TimeUpdated: 2023-12-30T15:32:28+00:00
 ! Expires: 5 days (update frequency)
 ||fnrbulqws.com^
 ||ptompeer.net^
@@ -6538,6 +6538,7 @@ _800x80_
 ||6061de8597.com^
 ||63voy9ciyi14.com^
 ||65bfba9ad0.com^
+||68069795d1.com^
 ||6863fd0afc.com^
 ||69i.club^
 ||69v.club^
@@ -6886,6 +6887,7 @@ _800x80_
 ||aeb92e4b9d.com^
 ||aeeg5idiuenbi7erger.com^
 ||aeffe3nhrua5hua.com^
+||aegiumks.com^
 ||aerialmistaken.com^
 ||aerjnuloxlth.com^
 ||aesary.com^
@@ -7878,6 +7880,7 @@ _800x80_
 ||cawlavzzap.com^
 ||cayucaoidwlfe.com^
 ||cbdedibles.site^
+||cbijwves.com^
 ||cc-dt.com^
 ||cc72fceb4f.com^
 ||ccgzcavzbmztk.com^
@@ -8742,6 +8745,7 @@ _800x80_
 ||eengange.com^
 ||eephaush.com^
 ||eepsukso.com^
+||eeptushe.xyz^
 ||eeshemto.com^
 ||eesihighlyrec.xyz^
 ||eetsegeb.net^
@@ -8948,6 +8952,7 @@ _800x80_
 ||failuremaistry.com^
 ||fairfaxhousemaid.com^
 ||faithiqs.com^
+||fajukc.com^
 ||falcatayamalka.com^
 ||falkwo.com^
 ||fallaciousfifth.com^
@@ -9377,6 +9382,7 @@ _800x80_
 ||gnjxesyfensbh.com^
 ||gnkgvjxunmwc.com^
 ||gnqtageoyy.com^
+||gnvpmftcgp.com^
 ||go-srv.com^
 ||go.mnaspm.com^
 ||go2.global^
@@ -9965,6 +9971,7 @@ _800x80_
 ||ionistkhaya.website^
 ||iononetravoy.com^
 ||iornsfyhueev.com^
+||iovxhfavijyu.com^
 ||ioxffew.com^
 ||ipmathematical.org^
 ||ipredictive.com^
@@ -10087,6 +10094,7 @@ _800x80_
 ||jizzensirrah.com^
 ||jjansomvfv.com^
 ||jjrvlrslb.com^
+||jkbewmezjawqj.top^
 ||jkha742.xyz^
 ||jklpy.com^
 ||jkzakzjwyolbl.top^
@@ -10549,6 +10557,7 @@ _800x80_
 ||luxuryfluencylength.com^
 ||luyten-98c.com^
 ||lvlmhyjzdan.com^
+||lvnnqdgxdlhj.com^
 ||lvwuuehkvitwn.com^
 ||lwgadm.com^
 ||lwjvyd.com^
@@ -10561,6 +10570,7 @@ _800x80_
 ||lycopuscris.com^
 ||lyemmayrabawe.top^
 ||lygbbkgykzcr.com^
+||lygvtmeaekuv.com^
 ||lyjznnanaryaj.top^
 ||lynotquitesou.info^
 ||lyricsgrand.com^
@@ -10982,6 +10992,7 @@ _800x80_
 ||namelymutiny.com^
 ||namesakedisappointmentpulverize.com^
 ||nan46ysangt28eec.com^
+||nandasmile.org^
 ||nanesbewail.com^
 ||nanhermione.com^
 ||napererelysian.com^
@@ -11399,6 +11410,7 @@ _800x80_
 ||orjfun.com^
 ||orldwhoisquite.org^
 ||oroodsee.xyz^
+||orpoobj.com^
 ||orqrdm.com^
 ||orquideassp.com^
 ||osarmapa.net^
@@ -11567,6 +11579,7 @@ _800x80_
 ||pclk.name^
 ||pcmclks.com^
 ||pctlwm.com^
+||pcvlpotybnd.com^
 ||pd-news.com^
 ||pdbqyzi.com^
 ||pdfurqok.com^
@@ -12184,6 +12197,7 @@ _800x80_
 ||rcf3occ8.de^
 ||rcvlink.com^
 ||rcvlinks.com^
+||rcvsmbawwqodqt.com^
 ||rcwuzudjcsjmr.com^
 ||rddywd.com^
 ||rdrctgoweb.com^
@@ -13512,6 +13526,7 @@ _800x80_
 ||umexalim.com^
 ||umiackscursors.com^
 ||unarbokor.com^
+||unaswpzo.com^
 ||unclesnewspaper.com^
 ||uncrownarmenic.com^
 ||underdog.media^
@@ -13774,6 +13789,7 @@ _800x80_
 ||vounaipu.net^
 ||voxar.xyz^
 ||voxjvytmisj.com^
+||vpfudjdi.com^
 ||vpipi.com^
 ||vpixrlkggv.com^
 ||vprtrfc.com^
@@ -14028,6 +14044,7 @@ _800x80_
 ||worldcoolfeed.com^
 ||worldfreshblog.com^
 ||worldglobalssp.xyz^
+||worldwhoisq.org^
 ||worldwideorganiza.xyz^
 ||wormdehydratedaeroplane.com^
 ||worsesziara.com^
@@ -15249,6 +15266,7 @@ _800x80_
 ||d192r5l88wrng7.cloudfront.net^
 ||d19gkl2iaav80x.cloudfront.net^
 ||d1appgm50chwbg.cloudfront.net^
+||d1aukpqf83rqhe.cloudfront.net^
 ||d1b240xv9h0q8y.cloudfront.net^
 ||d1b9b1cxai2c03.cloudfront.net^
 ||d1bci271z7i5pg.cloudfront.net^
