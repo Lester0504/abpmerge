@@ -1,9 +1,9 @@
-! Checksum: 2MWwLz0Bwm4f/MhZQFfiFw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1705476946-3600.patch
+! Checksum: oZITe8yJHHz4LK4KDMuaEw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1705505973-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.18.18
-! TimeUpdated: 2024-01-17T07:32:35+00:00
+! Version: 2.3.18.25
+! TimeUpdated: 2024-01-17T15:35:39+00:00
 ! Expires: 5 days (update frequency)
 ||guvsxiex.xyz^
 ||adxfire.net^
@@ -993,6 +993,7 @@ trshow.info$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-l
 @@||static.adsafeprotected.com/skeleton.gif?*adslot=
 @@||static.adsafeprotected.com/skeleton.gif?*adunitid=
 @@||static.adsafeprotected.com/skeleton.gif?*bannnerid=
+@@||ytlarge.com/youtube/ad/cmbdv2.js
 ||osuskinner.com/check|$xmlhttprequest
 ||imasdk.googleapis.com/pal/sdkloader/pal.js$script,redirect=noopjs,domain=mtvema.com|mtv.co.uk|mtv.de|mtv.it
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=mtvema.com|mtv.co.uk|mtv.de|mtv.it
@@ -4341,6 +4342,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 !+ PLATFORM(android)
 @@||adguard.com^$stealth
+@@||reddit.app.link^$stealth=useragent
+@@||plground.live^$stealth=referrer
 @@||rscaptcha.com^$domain=claimtrx.com,stealth=referrer
 @@||p.sky.com^$domain=wowtv.de,stealth=referrer
 @@||id.sky.de^$domain=wowtv.de,stealth=referrer
@@ -4615,7 +4618,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||doubanio.com/view/$stealth
 @@||cdndm5.com^$stealth
 @@||google.com/maps/api/$stealth
-@@cdn.eporner.com^$stealth
+@@cdn.eporner.com^$stealth=referrer
 @@.porntube.com^$stealth
 @@||cdnvideo.ru^$stealth
 @@||img.noobzone.ru^$stealth
@@ -6013,6 +6016,7 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /xpopup.js
 /yume_ad_library_
 /~cdn/ads/*
+://a.*/ad-provider.js$third-party
 ://a.ads.
 ://ad-api-
 ://ad1.
@@ -9014,6 +9018,7 @@ _800x80_
 ||fayijxrs.com^
 ||fbcdn2.com^
 ||fbebmgbiou.com^
+||fbmedia-bls.com^
 ||fbmedia-dhs.com^
 ||fcaijpwzvj.com^
 ||fcqqbrfucuf.com^
@@ -9039,6 +9044,7 @@ _800x80_
 ||feistyhelicopter.com^
 ||feistyswim.com^
 ||fejla.com^
+||femoafoo.com^
 ||femsoahe.com^
 ||fenacheaverage.com^
 ||fencerscoelho.com^
@@ -9169,6 +9175,7 @@ _800x80_
 ||fouleewu.net^
 ||fourteenthcongratulate.com^
 ||foxpush.io^
+||foxqck.com^
 ||fpdbccngiujp.com^
 ||fpgedsewst.com^
 ||fpiljsxrchc.com^
@@ -10644,6 +10651,7 @@ _800x80_
 ||m2track.co^
 ||m32.media^
 ||m4clicks.com^
+||ma3ion.com^
 ||mabelasateens.com^
 ||mabolmvcuo.com^
 ||macan-native.com^
@@ -11216,6 +11224,7 @@ _800x80_
 ||notifypicture.info^
 ||notifysrv.com^
 ||notionsshrivelcustomer.com^
+||notonthebedsheets.com^
 ||noughttrustthreshold.com^
 ||nounrespectively.com^
 ||noureewo.com^
@@ -14855,6 +14864,7 @@ _800x80_
 ||evaporateahead.com^$popup
 ||expdirclk.com^$popup
 ||forooqso.tv^$popup
+||foxqck.com^$popup
 ||fstsrv6.com^$popup
 ||g0wow.net^$popup
 ||g2afse.com^$popup
