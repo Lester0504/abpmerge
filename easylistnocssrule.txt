@@ -1,10 +1,12 @@
-! Checksum: vOJ6etGU4dYTUcDLZb4MSQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1708673779-3600.patch
+! Checksum: pE0b6dX0FWXtCwb/C2QWRA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1708702578-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.23.69
-! TimeUpdated: 2024-02-23T07:33:17+00:00
+! Version: 2.3.23.76
+! TimeUpdated: 2024-02-23T15:33:11+00:00
 ! Expires: 5 days (update frequency)
+||agazejagless.com^
+||forestallbladdermajestic.com^
 ||ganehangmen.com^
 ||ipurseeh.xyz^
 ||reonews.pl^$third-party
@@ -980,6 +982,8 @@ trshow.info$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-l
 @@||static.adsafeprotected.com/skeleton.gif?*adslot=
 @@||static.adsafeprotected.com/skeleton.gif?*adunitid=
 @@||static.adsafeprotected.com/skeleton.gif?*bannnerid=
+@@||ddzswov1e84sp.cloudfront.net^$script,domain=free-content.pro
+@@||onasider.top/tc$xmlhttprequest,domain=free-content.pro
 ||sportshub.to/frames/cf/block/
 ||tagan.adlightning.com/setupad-hai/op.js$script,redirect=noopjs,domain=dgb.lol
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com
@@ -1218,7 +1222,6 @@ $script,redirect-rule=noopjs,domain=zeroupload.com
 !+ NOT_OPTIMIZED
 mail.com$$script[tag-content="uabp"][min-length="20000"][max-length="300000"]
 @@||s.jacquieetmichelelite.com/assets/popunder.js
-!+ NOT_OPTIMIZED
 ||elamigosedition.com/*/js/blocker.js
 @@||et.novelgames.com/ads.js?adTagUrl=
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=10play.com.au
@@ -2726,6 +2729,7 @@ $script,third-party,denyallow=linkvertise.com|fastly.net|statically.io|sharecast
 ||livehdplay.ru/blast.js
 ||lovesomecommunity.com/blast.js
 ||b4ucast.com/blast.js
+||hentai2read.com/ark/arkAPI.php
 ||eroasmr.com/preroll_*.xml
 ||eroasmr.com/postroll_*.xml
 ||vidhidevip.com/assets/jquery/api100.js
