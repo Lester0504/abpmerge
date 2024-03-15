@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3772 / 3772</b></td>
+<td><b class=blue>3765 / 3765</b></td>
 </tr>
 
 </table>
@@ -67,7 +67,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 !Last modified: Mon, 26 Feb 2024 09:09:41 GMT
 !Homepage:      https://pgl.yoyo.org/adservers/
 !Format:        adblockplus
-!Entries:       3772
+!Entries:       3765
 !Credits:       Peter Lowe - pgl@yoyo.org - pgl on github - https://pgl.yoyo.org/
 !This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus
 !Policy:        https://pgl.yoyo.org/adservers/policy.php
@@ -78,12 +78,10 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||101order.com^
 ||180hits.de^
 ||180searchassistant.com^
-||1link2020.com^
 ||1rx.io^
 ||207.net^
 ||247media.com^
 ||24log.com^
-||24pm-affiliation.com^
 ||2mdn.net^
 ||2o7.net^
 ||2znp09oa.com^
@@ -786,7 +784,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||adserver.echdk.pl^
 ||adserver.friendfinder.com^
 ||adserver.generationiron.com^
-||adserver.html.it^
 ||adserver.hwupgrade.it^
 ||adserver.ilango.de^
 ||adserver.industryarena.com^
@@ -962,7 +959,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||affiliate.treated.com^
 ||affiliatefuture.com^
 ||affiliates.allposters.com^
-||affiliates.babylon.com^
 ||affiliates.digitalriver.com^
 ||affiliates.globat.com^
 ||affiliates.rozetka.com.ua^
@@ -1731,7 +1727,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||eiv.baidu.com^
 ||ejyymghi.com^
 ||elasticchange.com^
-||elasticducks.com^
 ||elderlyscissors.com^
 ||elderlytown.com^
 ||elephantqueue.com^
@@ -1817,7 +1812,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||exosrv.com^
 ||experianmarketingservices.digital^
 ||explorads.com^
-||expmediadirect1.com^
 ||exponea.com^
 ||exponential.com^
 ||express-submit.de^
@@ -2716,6 +2710,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||pcash.imlive.com^
 ||peep-auktion.de^
 ||peer39.com^
+||pennyweb.com^
 ||pepperjamnetwork.com^
 ||perceivequarter.com^
 ||percentmobile.com^
@@ -2801,7 +2796,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||primetime.net^
 ||privatecash.com^
 ||prmtracking.com^
-||pro-advertising.com^
 ||pro-market.net^
 ||probablepartner.com^
 ||processplantation.com^
@@ -2921,7 +2915,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||ratings.lycos.com^
 ||rayjump.com^
 ||rcadserver.com^
-||re-directme.com^
 ||reachjunction.com^
 ||reactx.com^
 ||readgoldfish.com^
