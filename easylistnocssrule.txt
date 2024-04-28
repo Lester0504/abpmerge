@@ -1,9 +1,9 @@
-! Checksum: i9N3qMVpoeGljudd/JZULQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1714289609-3600.patch
+! Checksum: WX8miMjGM86dt/+vkimE7w
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1714314817-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.33.10
-! TimeUpdated: 2024-04-28T07:31:15+00:00
+! Version: 2.3.33.16
+! TimeUpdated: 2024-04-28T14:31:18+00:00
 ! Expires: 5 days (update frequency)
 ||thecoreadv.com^
 ||ibetadvdqrn.com^
@@ -991,8 +991,7 @@ trshow.info$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-l
 @@||static.adsafeprotected.com/skeleton.gif?*adslot=
 @@||static.adsafeprotected.com/skeleton.gif?*adunitid=
 @@||static.adsafeprotected.com/skeleton.gif?*bannnerid=
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=googlesyndication-adsbygoogle,domain=texteditor.nsspot.net,important
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=texteditor.nsspot.net
+||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=texteditor.nsspot.net
 @@||celebfapper.com/js/adManager.js
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=shotstv.com
 @@/wp-content/plugins/*/assets/js/ad.min.js$~third-party,domain=afk.guide|coastalvirginiamag.com
@@ -17382,6 +17381,7 @@ _800x80_
 ||4a0e.xyz^$document,popup
 ||4e55.xyz^$document,popup
 ||4e68.xyz^$document,popup
+||58e0.site^$document,popup
 ||657475b7-0095-478d-90d4-96ce440604f9.online^$document,popup
 ||7e809ed7-e553-4e29-acb1-4e3c0e986562.site^$document,popup
 ||7fc8.site^$document,popup
