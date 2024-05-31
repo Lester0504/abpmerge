@@ -1,10 +1,11 @@
-! Checksum: 1fwjNw05QwlXB98w+IuVtw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1717140938-3600.patch
+! Checksum: KF8nuy4gxu0z96MzoLPVNw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1717169749-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.37.99
-! TimeUpdated: 2024-05-31T07:31:59+00:00
+! Version: 2.3.38.7
+! TimeUpdated: 2024-05-31T15:31:43+00:00
 ! Expires: 5 days (update frequency)
+||cdn.mcnn.pl^$third-party
 ||batch.com^$third-party
 ||flx2.pnl.agency^$third-party
 ||opeanresultancete.info^$all
@@ -154,6 +155,8 @@
 188.72.219.36^$network
 !+ NOT_OPTIMIZED PLATFORM(windows, mac, android)
 ||hub.fghtem.com^$third-party
+||kqduogttdmryguw.com^
+||doobuphoo.com^
 ||grushoungy.com^
 ||tubqwqvsfusjqq.com^
 ||rndskittytor.com^
@@ -2906,6 +2909,7 @@ iprima.cz$$script[wildcard="*getOwnPropertyDescriptor*contentWindow*ABP*"][min-l
 ||login.dognet.sk/accounts/default1$third-party
 ||sport.cz^$cookie=sportySporty
 sport.cz$$script[wildcard="*parseInt*ssp*"][min-length="100000"][max-length="200000"]
+/cwl.js$domain=seznam.cz|seznamzpravy.cz|novinky.cz|super.cz|sport.cz|prozeny.cz|garaz.cz|nasezahrada.com|forum24.cz
 ||seznam.cz^$cookie=qusnyQusny
 @@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=play.joj.sk
@@ -3110,6 +3114,7 @@ calciomercato.com$$script[tag-content="new FuckAdBlock"][max-length="30000"]
 ||hgc-*.svonm.com/www.tv2.no/config.json$replace=/"enabled":\strue\,/"enabled": false\,/i
 ||tv2.no/s/misc/homad/homadConfigTV2Live.json$replace=/"enabled":\strue\,/"enabled": false\,/i
 ||cdn.questvert.pl/publishers/*/qpscript.js
+||oferteo.pl/widget/$domain=kb.pl
 ||d-pa.ppstatic.pl/frames/$image,badfilter
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=gazetaolsztynska.pl
 @@||mediateka.pl/media/desktop/zpr_footer/js/adblock_detector.js
@@ -3877,6 +3882,10 @@ _ad_content.
 /adwolf.$domain=~adwolf.ru
 /filejoker.$image
 Banner468x60
+fourfourtwo.co.kr,interfootball.co.kr,a-ha.io,cboard.net,jjang0u.com,joongdo.co.kr,viva100.com,thephoblographer.com,gamingdeputy.com,thesaurus.net,tweaksforgeeks.com,alle-tests.nl,maketecheasier.com,automobile-catalog.com,allthekingz.com,motorbikecatalog.com$$script:contains(KCgpPT57bGV0IGU)
+worldhistory.org,etnews.com,iusm.co.kr,lamire.jp,picrew.me,text-compare.com,etnewskorea.com,gadgets360.com,mydaily.co.kr,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,sportsrec.com,reportera.co.kr$$script[onload="error-report.com"]
+allthetests.com,javatpoint.com,globalrph.com$$script:contains(error-report.com)
+worldhistory.org$$script:contains(adShield)
 /fl.js$domain=nopeporn.com|veu.xxx|oralhoes.com|sexytrunk.com|xxxbanjo.com|beeg.com|croea.com|hipornvideo.com|imagetwist.com|imgskull.com|kporno.com|picfox.org|picshick.com|picturelol.com|porntube.com|24video.adult|24video.in|peretrah.com|pornognomik.com|sizke.com|imagecrest.com|imgtaxi.com|chaostube.net|imgadult.com|imgdrive.net|imgwallet.com
 ||bing.com/api/$app=Skype.exe
 ||bt.co/adzerk/$app=utorrentie.exe
@@ -3988,7 +3997,7 @@ $script,xmlhttprequest,third-party,domain=clickndownload.*|clicknupload.*
 ||players.radioonlinehd.net/ads/
 ||geo.azzureedge.xyz/ip$domain=streameast.app|streamcheck.link
 ||vice-web-statics-cdn.vice.com/vendor/ad-lib/*/vice-ad-lib.js
-$script,third-party,denyallow=cloudcdn.monster|gstatic.com|cloudflare.com|jsdelivr.net,_____,domain=poisteewoofs.monster|lookmovie2.to|praiing.monster
+$script,third-party,denyallow=cloudcdn.monster|gstatic.com|cloudflare.com|jsdelivr.net,_____,domain=poisteewoofs.monster|lookmovie2.to|praiing.monster|lookmovie2.la
 ||myvidster.com/js/myv_ad_camp2.php
 ||terbit21.gdn/ads/
 ||pg.ignimgs.com/pogoadkit.js
@@ -5669,7 +5678,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||data.alicloudccp.com^$stealth,domain=aliyundrive.com
 @@||microsoft.com/*/p/$stealth
 @@||sso.kinopoisk.ru^$stealth
-@@||img*.doubanio.com^$stealth,domain=accounts.douban.com
+@@||simg.doubanio.com^$stealth=referrer,domain=douban.com
+@@||img*.doubanio.com^$stealth=referrer,domain=douban.com
 @@||moly.cloud/*/*.m3u8$stealth
 @@||ksv-video-publish-m3u8.cdn.bcebos.com/*.m3u8$stealth
 @@||manhua.acimg.cn^$stealth,domain=ac.qq.com
@@ -12387,6 +12397,7 @@ _800x80_
 ||perigshfnon.com^
 ||periodspoppyrefuge.com^
 ||perperarenail.com^
+||persicrejolt.com^
 ||persistarcticthese.com^
 ||persona3.tech^
 ||pertawee.net^
@@ -12869,6 +12880,7 @@ _800x80_
 ||quarterbacknervous.com^
 ||quaternnerka.com^
 ||queasydashed.top^
+||queerygenets.com^
 ||queresspurdie.com^
 ||quesid.com^
 ||questioningtosscontradiction.com^
@@ -15589,6 +15601,7 @@ _800x80_
 ||googleadsserving.cn^
 ||02777e.site^$document,popup
 ||05751c.site^$document,popup
+||072551.xyz^$document,popup
 ||07e197.site^$document,popup
 ||1116c5.xyz^$document,popup
 ||11c7a3.xyz^$document,popup
@@ -15957,7 +15970,6 @@ _800x80_
 ||entainpartners.com/renderbanner.do?
 ||epnt.ebay.com^
 ||feedads.feedblitz.com^
-||feedgrabbr.com/widget/
 ||fileboom.me/images/i/$third-party
 ||financeads.net/tb.php$third-party
 ||flocdn.com/*/ads-coordinator/
