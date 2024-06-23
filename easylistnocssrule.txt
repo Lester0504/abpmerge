@@ -1,9 +1,9 @@
-! Checksum: a5Ubva0WW7Hnrb8Bk+hoiQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1719120901-3600.patch
+! Checksum: kEG7M2223rhs4se5Qze6fw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1719131693-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.40.92
-! TimeUpdated: 2024-06-23T05:31:26+00:00
+! Version: 2.3.40.93
+! TimeUpdated: 2024-06-23T08:31:19+00:00
 ! Expires: 5 days (update frequency)
 ||adfulplatform.com^$third-party
 ||journeymv.com^$third-party
