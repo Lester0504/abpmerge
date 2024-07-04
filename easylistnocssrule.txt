@@ -1,10 +1,11 @@
-! Checksum: 7A4Oqj2x9BcDW/NpVbaZLw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1720078542-3600.patch
+! Checksum: KJI/iktqWUB0aqnlo11Pow
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1720107641-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.42.52
-! TimeUpdated: 2024-07-04T07:31:29+00:00
+! Version: 2.3.42.60
+! TimeUpdated: 2024-07-04T15:31:35+00:00
 ! Expires: 5 days (update frequency)
+||xlvul.ajscdn.com^
 ||ahmar2four.xyz^
 ||ser678uikl.xyz^$all
 ||pki87n.pro^$all
@@ -361,7 +362,6 @@
 ||adform.net^
 ||ad-specs.guoshipartners.com^
 ||aanqylta.com^
-||ad.ettoday.net^$redirect=nooptext
 ||jsc.mgid.com^$domain=~mgid.com
 .doublepimp.com^$third-party
 ||2performant.com^$third-party
@@ -1442,6 +1442,10 @@ ukposts.info,ruplayers.com$$script[tag-content="insertAdjacentHTML"]
 serieslatinoamerica.tv$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-length="10000"]
 trshow.info$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-length="10000"]
 youporn.com$$script:contains(/window\.[\s\S]*?_zone_[\s\S]*?{"zone_id":/)
+@@||timesunion.com/sites/jquery.adx.js
+@@||n730.timesunion.com/script.js
+||n730.timesunion.com/script.js$script,redirect=noopjs,important
+||popcdn.day/magnitude.js
 @@||javtiful.com/ad-engine.js
 ||10minutemail.com/ub/ub.js
 @@||kumo.network-n.com/dist/app.js$domain=discordbotlist.com
@@ -2905,6 +2909,7 @@ $script,third-party,denyallow=ckeditor.com|fastly.net|statically.io|sharecast.ws
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
 pornhat.com$$script[tag-content="initCustomEvent(""getexoloader"""][min-length="500"][max-length="1000"]
 !+ NOT_OPTIMIZED
 104.155.51.226:443$network
@@ -3619,6 +3624,7 @@ $domain=adserver.juicyads.com
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
 ||cdnstream.top/assets/jquery/app*.js?type=adult&v=
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
@@ -3957,6 +3963,8 @@ $script,third-party,denyallow=doodcdn.co|fastly.net|statically.io|sharecast.ws|b
 $popup,third-party,domain=fembed-hd.com,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=dood.ws,badfilter
+@@||player.ex.co^$domain=reviewjournal.com
+@@||cdn.ex.co/player/$domain=reviewjournal.com
 @@||litvp.com/checkStatus/$domain=emturbovid.com
 @@app.arizonawildcats.com/preferences
 ||googletagservices.com/tag/js/gpt.js$xmlhttprequest,script,redirect=googletagservices-gpt,important,domain=makeuseof.com|howtogeek.com
@@ -5586,6 +5594,7 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /adv-scroll.
 /adv.css?
 /adv_468.
+/adv_out.js$third-party
 /adv_teasers.js
 /advanced-ads-$domain=~wordpress.org
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
@@ -5694,7 +5703,6 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /dmcads_$script
 /doubleclick.aspx
 /doubleclick.min
-/doublepimp2.js
 /dynamicad?
 /ero.htm
 /exitpopup.js
@@ -6113,7 +6121,7 @@ _widget_ad.
 /push-skin/skin.min.js
 /search/tsc.php?
 /full-page-script.js$script
-/pop2.js
+/pop2.js?r=
 /beardeddragon/drake.js
 /beardeddragon/gilamonster.js
 /beardeddragon/tortoise.js
@@ -6527,6 +6535,7 @@ _800x80_
 ||1xroom.com^
 ||2020mustang.com^
 ||2022welcome.com^
+||2024jphatomenesys36.top^
 ||206ads.com^
 ||21wiz.com^
 ||22media.world^
@@ -7140,6 +7149,7 @@ _800x80_
 ||aortismbutyric.com^
 ||ap3lorf0il.com^
 ||apatheticdrawerscolourful.com^
+||apcatcltoph.com^
 ||apglinks.net^
 ||api168168.com^
 ||apidata.info^
@@ -7403,6 +7413,7 @@ _800x80_
 ||bathepoliteness.com^
 ||battepush.com^
 ||bauptost.net^
+||bawixi.xyz^
 ||baygallter.top^
 ||bbangads.b-cdn.net^
 ||bbd834il.de^
@@ -7976,6 +7987,7 @@ _800x80_
 ||ciksolre.net^
 ||ciliarycetus.com^
 ||cimm.top^
+||cincherdatable.com^
 ||cinuraarrives.com^
 ||cipledecline.buzz^
 ||cippusforebye.com^
@@ -8080,6 +8092,7 @@ _800x80_
 ||coinverti.com^
 ||colarak.com^
 ||coldflownews.com^
+||coldnessswarthyclinic.com^
 ||colenhackbut.com^
 ||colerajute.com^
 ||coliassfeurytheme.com^
@@ -8706,6 +8719,7 @@ _800x80_
 ||enbclpbyi.com^
 ||encirclesheriffemit.com^
 ||enclosedswoopbarnacle.com^
+||encoilinwove.com^
 ||encumberbiased.com^
 ||encumbranceunderlineheadmaster.com^
 ||endorsementpsychicwry.com^
@@ -8957,6 +8971,7 @@ _800x80_
 ||floccischlump.com^
 ||floitcarites.com^
 ||floralrichardapprentice.com^
+||flqdbbzd.com^
 ||flqwvojijhqqlq.com^
 ||fluencydepressing.com^
 ||fluffytracing.com^
@@ -9360,6 +9375,7 @@ _800x80_
 ||grunikpazp.com^
 ||grunoaph.net^
 ||grushoungy.com^
+||gruwrebutnar.com^
 ||grygrothapi.pro^
 ||gscontxt.net^
 ||gsjln04hd.com^
@@ -9618,6 +9634,7 @@ _800x80_
 ||hugenicholas.com^
 ||hugfromoctopus.com^
 ||hugysoral.digital^
+||hukogpanbs.com^
 ||hummingexam.com^
 ||humoralpurline.com^
 ||humpdecompose.com^
@@ -9791,6 +9808,7 @@ _800x80_
 ||instinctiveads.com^
 ||instructive-glass.com^
 ||instrumenttactics.com^
+||insultresignation.com^
 ||inswebt.com^
 ||integritydeceptive.com^
 ||intellectualhide.com^
@@ -9882,6 +9900,7 @@ _800x80_
 ||jazzlowness.com^
 ||jbrnmlmweaarl.top^
 ||jbrpciuloi.com^
+||jcdudokp.com^
 ||jcqvfuztbvryk.com^
 ||jcvasagimxyzd.com^
 ||jczhjpollvc.com^
@@ -10794,6 +10813,7 @@ _800x80_
 ||newsyour.net^
 ||newtits.name^
 ||newvideoapp.pro^
+||newwinner.life^
 ||newzmaker.me^
 ||nextpsh.top^
 ||nezygmobha.com^
@@ -10973,6 +10993,7 @@ _800x80_
 ||oeufvkymknbie.com^
 ||of-bo.com^
 ||ofchildr.buzz^
+||ofdanpozlgha.com^
 ||offerimage.com^
 ||offernow24.com^
 ||offfurreton.com^
@@ -10998,6 +11019,7 @@ _800x80_
 ||ohtctjiuow.com^
 ||ohwhdspj.com^
 ||ointmentapathetic.com^
+||ointmentbarely.com^
 ||ojwonhtrenwi.com^
 ||okdigital.me^
 ||oko.net^
@@ -11999,6 +12021,7 @@ _800x80_
 ||roledale.com^
 ||rollads.live^
 ||rollserver.xyz^
+||rolpenszimocca.com^
 ||romanticwait.com^
 ||romanunhedge.com^
 ||romashk9arfk10.com^
@@ -12983,6 +13006,7 @@ _800x80_
 ||turnhub.net^
 ||turnstileunavailablesite.com^
 ||tuskhautein.com^
+||twangruble.top^
 ||twddsnvl.com^
 ||twelfthdistasteful.com^
 ||twinfill.com^
@@ -15046,6 +15070,7 @@ _800x80_
 ||creative.141live.com^
 ||creative.myasian.live/widgets/
 ||creative.myavlive.com^
+||creative.tklivechat.com^
 ||deliver.ptgncdn.com^
 ||jeewoo.xctd.me^
 ||livejasmin.com^$third-party,domain=~awempire.com
