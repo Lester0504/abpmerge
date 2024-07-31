@@ -1,9 +1,9 @@
-! Checksum: GlV1YNkpMBuP0huanZh7Lw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1722425810-3600.patch
+! Checksum: +vSEiTEW3WaAWihFZoaC5g
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1722440209-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.46.31
-! TimeUpdated: 2024-07-31T11:31:27+00:00
+! Version: 2.3.46.35
+! TimeUpdated: 2024-07-31T15:31:27+00:00
 ! Expires: 5 days (update frequency)
 ||kaxjtkvgo.com^
 ||whouvoart.com^
@@ -37,7 +37,6 @@
 ||duxlveokumpmd.com^
 ||stoogouy.net^
 ||equipmentapes.com^
-185.149.120.173$network
 ||vg876yuj.click^$all
 ||lmj8i.pro^$all
 ||ytru4.pro^$all
@@ -3041,6 +3040,7 @@ $script,third-party,denyallow=ckeditor.com|fastly.net|statically.io|sharecast.ws
 ||polsatnews.pl^$replace=/(\,vast: ?")[\s\S]*?\/ad\.xml\?[\s\S]*?("\,)/\$1\$2/,~script,~stylesheet,~xmlhttprequest,~other
 ||polsatsport.pl^$replace=/(\,vast: ?")[\s\S]*?\/ad\.xml\?[\s\S]*?("\,)/\$1\$2/,~script,~stylesheet,~xmlhttprequest,~other
 ||hit.stat24.com/*ad.xml$replace=/(<VAST[\s\S]*?>)[\s\S]*?(<Ad id=[\s\S]*?>)[\s\S]*<\/VAST>/\$1\$2<\/Ad><\/VAST>/,important,domain=polsatnews.pl|polsatsport.pl|twojapogoda.pl|geekweek.pl
+||publisher.freerider.ro/storage/images/_Freerider-Afisport
 ||business24.ro/index.php?module=getActiveBlockerContent.ajxinternal&
 ||business24.ro/index.php?module=staticBanners.ajxinternal&zones
 !+ NOT_OPTIMIZED
@@ -3064,6 +3064,7 @@ $script,third-party,denyallow=ckeditor.com|fastly.net|statically.io|sharecast.ws
 @@||acdn.adnxs.com/ast/ast.js$domain=svd.se
 ||expressen.se*/video$replace=/"adsDisabled":false/"adsDisabled":true/
 ||expressen.se*/video$replace=/"adsDisabled":false/"adsDisabled":true/,important
+||img.pali.media/palithai_img/
 .gif$domain=manga168.net
 ||avkuy.com/wp-content/uploads/*/*.webp
 ||xn--72czbawn3i1b1dydua6cl3b.com/*/*.gif
