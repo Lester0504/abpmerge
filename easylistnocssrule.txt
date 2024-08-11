@@ -1,9 +1,9 @@
-! Checksum: VzhRen5M1Bm/m6GeSE1bZg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1723358187-3600.patch
+! Checksum: a2VGQxDb/U0rk+d9zoDsAQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1723390595-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.47.90
-! TimeUpdated: 2024-08-11T06:31:27+00:00
+! Version: 2.3.47.94
+! TimeUpdated: 2024-08-11T15:31:23+00:00
 ! Expires: 5 days (update frequency)
 ||signamentswithded.com^
 ||atethebenefitsshe.com^
@@ -5707,7 +5707,6 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /getAdsysCode?
 /google-adsense.js
 /google_caf.js?
-/googleAdsManager.js
 /googleafs.js
 /gospel2Truth.js
 /gpt.js$script,xmlhttprequest
@@ -14283,6 +14282,7 @@ _800x80_
 ||258104d2.live^$document,popup
 ||28d287b9.xyz^$document,popup
 ||2d8bc293.xyz^$document,popup
+||2d979880.xyz^$document,popup
 ||4126fe80.xyz^$document,popup
 ||45496fee.xyz^$document,popup
 ||4602306b.xyz^$document,popup
