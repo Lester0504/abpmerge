@@ -1,9 +1,9 @@
-! Checksum: 1Tlydf/j/WU6Dy60PqESuw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1726126799-3600.patch
+! Checksum: rmO2b0H973xDn7vwscfiPQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1726151808-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.52.42
-! TimeUpdated: 2024-09-12T07:31:29+00:00
+! Version: 2.3.52.46
+! TimeUpdated: 2024-09-12T14:31:19+00:00
 ! Expires: 5 days (update frequency)
 ||js.trendmd.com^$third-party
 ||fimrg.ajscdn.com^
@@ -2978,7 +2978,7 @@ tvtoss.com$$script[tag-content="ads-wrap"]
 /avo/includes/js/jquery.js
 /contents/images-banners/*
 .com/pw/waWQiOjEw
-/^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,5}\/){0,2}[a-z]{2,}\?(?:[a-z]+=(?:\d+|[a-z]+)&)*?id=[12]\d{6}/$script,third-party,match-case,header=etag
+/^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,5}\/){0,2}[a-z]{2,}\?(?:[a-z]+=(?:\d+|[a-z]+)&)*?id=[12]\d{6}/$script,third-party,match-case
 /get/*?zoneid=*&jp=$script
 /assets/jwplayer-*/vast.js$script,~third-party
 /duayn7.$script,~third-party
@@ -5242,7 +5242,6 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /_xa/ads?
 /a/display.php?$script
 /ad--unit.htm|
-/ad-125.
 /ad-choices-$image
 /ad-choices.png$image
 /ad-scroll.js$script
@@ -5313,9 +5312,9 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /ads-right.
 /ads-templateslist.$script
 /ads-vast-vpaid.js?$script
-/ads.bundle.js
+/ads.bundle.js$script
+/ads.bundle.min.js$script
 /ads.jplayer.$stylesheet
-/ads.jsp
 /ads/300.$subdocument
 /ads/banners/*$image
 /ads/footer.$~xmlhttprequest
@@ -5357,14 +5356,14 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /adslide.js$script
 /adsmanager.nsf/*$image
 /adsmanager/*$domain=~adsmanager.facebook.com|~github.com
-/AdsPlugin.
+/adsplugin/js/*$script
 /adsrv.
 /adsscript.$script
 /adsservice.
 /adsTracking.$script
 /adsWrapper.js$script
 /adtech;
-/adTools.
+/adtools.js$script
 /adtrack.$domain=~adtrack.ca|~adtrack.yacast.fr
 /adunit/track-view|
 /adunits.
@@ -5504,6 +5503,7 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /livejasmin.$domain=~livejasmin.com
 /maven/am.js$script
 /media/ads/*$image
+/microad.js$script
 /mnpw3.js$script
 /mobile_ad.
 /module/ads/*$~xmlhttprequest
@@ -5525,7 +5525,7 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /oncc-ad.js$script
 /oncc-adbanner.js$script
 /owa.MessageAdList.
-/page-links-to/dist/new-tab.js
+/page-links-to/dist/new-tab.js$script
 /page-peel$~xmlhttprequest
 /pagead/1p-user-list/*$image
 /pagead/conversion.js$script
@@ -5679,7 +5679,6 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /virtuagirlhd.
 /web_ads/*$image
 /webads/*$image,domain=~cccc.edu|~meatingplace.com
-/welcome_ad.js
 /wp-auto-affiliate-links/*$script,stylesheet
 /wp-bannerize-$script,stylesheet
 /wp-bannerize.$script,stylesheet
