@@ -1,10 +1,22 @@
-! Checksum: 4W/ItfBtcNKk6de9VloihQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1727451427-3600.patch
+! Checksum: bawPHOTt+XEi8OL10T5Dag
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1727483762-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.54.34
-! TimeUpdated: 2024-09-27T15:31:25+00:00
+! Version: 2.3.54.38
+! TimeUpdated: 2024-09-28T00:31:17+00:00
 ! Expires: 5 days (update frequency)
+||determineapp.com^
+||multisetup.pro^
+||ogfba.net^
+||ogfbb.net^
+||ogfbc.net^
+||ogfbd.net^
+||ogfbe.net^
+||ogffa.net^
+||ogfga.net^
+||ogfna.net^
+||pgazaz.icu^
+||smarf.icu^
 ||cdn.xpln.tech^
 ||peagsraters.com^
 ||qqbqy.com^
@@ -184,6 +196,8 @@ serve.bussyhunter.com^
 ||amazon-adsystem.com^
 !+ NOT_OPTIMIZED
 ||vipads.live^
+||88.208.46.222^$network
+||88.208.46.222^
 /^94\.242\.247\.(2[0-9]|3[0-2]):/$network
 /^23\.109\.170\.(18[7-9]|19[0-2])$/$network
 /^23\.109\.170\.(18[7-9]|19[0-2])$/
@@ -2505,6 +2519,7 @@ wiz1.net$$div[id="floatLayer1"]
 yycast.com,webcaston.com$$div[id="adsdiv"]
 tvtoss.com$$script[tag-content="ads-wrap"]
 /getjs?nadipdata$third-party,replace=/[\s\S]+openOriginalUrl[\s\S]+/openOriginalUrl()/
+/sm/getcode?apiKey=
 /^https:\/\/[a-z]{8,15}\.(?:(com|net)\/(?:\d{1,3}\/)?tag\.min\.js$)/$script,third-party
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,third-party,match-case
 /^https:\/\/[a-z]{10,12}\.com\/[a-z\/]{2,}\?id=[12]\d{6}$/$script,third-party,match-case
@@ -3844,6 +3859,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||googleadservices.com^$domain=google.ae|google.at|google.be|google.by|google.ca|google.ch|google.cl|google.cn|google.co.id|google.co.in|google.co.jp|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.bd|google.com.br|google.com.co|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.ng|google.com.pe|google.com.ph|google.com.pk|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.vn|google.de|google.dk|google.ee|google.es|google.fr|google.gr|google.hu|google.ie|google.it|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|google.tn
 !+ PLATFORM(android)
 @@||adguard.com^$stealth
+@@||html-load.com^$stealth=referrer
 @@||tnmr.org/hls$stealth=useragent
 @@||img.soutula.com^$stealth=referrer,domain=fabiaoqing.com
 @@||engagently.com/graphql$stealth=3p-auth,xmlhttprequest
@@ -5809,6 +5825,7 @@ _728x90_
 ||atomex.net^
 ||atomicarot.com^
 ||atonato.de^
+||atoniaregracy.com^
 ||atpansagean.com^
 ||atpclqff.com^
 ||atraff.com^
@@ -6124,6 +6141,7 @@ _728x90_
 ||bizographics.com^
 ||bizoniatump.click^
 ||bj2550.com^
+||bjafafesg.com^
 ||bjidwriorfkim.com^
 ||bjqug.xyz^
 ||bkjhqkohal.com^
@@ -6341,6 +6359,7 @@ _728x90_
 ||bungingimpasto.com^
 ||bunglersignoff.com^
 ||bunintruder.com^
+||bunjaraserumal.com^
 ||bunnslibby.com^
 ||buoydeparturediscontent.com^
 ||buqkrzbrucz.com^
@@ -6992,6 +7011,7 @@ _728x90_
 ||defpush.com^
 ||defybrick.com^
 ||deghooda.net^
+||delayedmall.pro^
 ||delfsrld.click^
 ||delicateomissionarched.com^
 ||delightedplash.com^
@@ -7044,6 +7064,7 @@ _728x90_
 ||dialoguemarvellouswound.com^
 ||dibrachndoderm.com^
 ||dibsemey.com^
+||dicesstipo.com^
 ||diclotrans.com^
 ||dicouksa.com^
 ||dicreativeideas.org^
@@ -8059,6 +8080,7 @@ _728x90_
 ||groaboara.com^
 ||grobido.info^
 ||groinopposed.com^
+||grojaigrerdugru.xyz^
 ||groleepugny.net^
 ||gronsoakoube.net^
 ||groorsoa.net^
@@ -8317,6 +8339,7 @@ _728x90_
 ||howlexhaust.com^
 ||hp1mufjhk.com^
 ||hppvkbfcuq.com^
+||hpqalsqjr.com^
 ||hpyjmp.com^
 ||hpyrdr.com^
 ||hqduejsycx.com^
@@ -8599,6 +8622,7 @@ _728x90_
 ||ivuzjfkqzx.com^
 ||ixtxxvbgudre.com^
 ||iyfbodn.com^
+||izeeto.com^
 ||izlok.xyz^
 ||izrnvo.com^
 ||j51a0p18x.com^
@@ -9065,6 +9089,7 @@ _728x90_
 ||lolsefti.com^
 ||longarctic.com^
 ||longestsundays.com^
+||lookebonyhill.com^
 ||lookinews.com^
 ||looktotheright.com^
 ||loomplyer.com^
@@ -9469,6 +9494,7 @@ _728x90_
 ||muchezougree.com^
 ||mucvvcbqrwfmir.com^
 ||muddyprocedure.com^
+||muddyquote.pro^
 ||muffygaslike.click^
 ||mugexfxue.com^
 ||mugpothop.com^
@@ -9578,6 +9604,7 @@ _728x90_
 ||newbluetrue.xyz^
 ||newdisplayformats.com^
 ||newdomain.center^
+||newestnone.shop^
 ||newir3ltyug79aiman.com^
 ||newmownbuttes.com^
 ||newregazedatth.com^
@@ -10274,6 +10301,7 @@ _728x90_
 ||possessdolejest.com^
 ||possiblepencil.com^
 ||postalfranticallyfriendship.com^
+||postaoz.xyz^
 ||postback1win.com^
 ||postlnk.com^
 ||postrelease.com^
@@ -10305,6 +10333,7 @@ _728x90_
 ||pqulqqpmx.com^
 ||practicallyfire.com^
 ||practthreat.club^
+||praiseddisintegrate.com^
 ||prascfaf.com^
 ||prayercertificatecompletion.com^
 ||prdredir.com^
@@ -10597,6 +10626,7 @@ _728x90_
 ||questormyxo.com^
 ||quickieboilingplayground.com^
 ||quintessential-telephone.pro^
+||quippedtcawi.com^
 ||quiresraviney.com^
 ||quiri-iix.com^
 ||quitjav11.fun^
@@ -10703,6 +10733,7 @@ _728x90_
 ||recmwgis.com^
 ||recognisetorchfreeway.com^
 ||recombssuu.com^
+||recommendednewspapermyself.com^
 ||recordedthereby.com^
 ||recordercourseheavy.com^
 ||redansediles.com^
@@ -11906,6 +11937,7 @@ _728x90_
 ||tsyndicate.com^
 ||ttbm.com^
 ||ttwmed.com^
+||tubbiedumous.com^
 ||tubecorp.com^
 ||tubecup.net^
 ||tubemov.com^
@@ -12107,6 +12139,7 @@ _728x90_
 ||ux782mkgx.com^
 ||uyiteasacomsys.info^
 ||uyoeybufozsp.com^
+||uzdhsjuhrw.com^
 ||uzqtbthkrqq.com^
 ||uztiljvaewg.com^
 ||v124mers.com^
@@ -12810,6 +12843,7 @@ _728x90_
 ||zeekaihu.net^
 ||zeewhaih.com^
 ||zegnoogho.xyz^
+||zegridelughipot.net^
 ||zelatorpukka.com^
 ||zelqytckpgzwag.com^
 ||zenal.xyz^
@@ -13303,6 +13337,7 @@ _728x90_
 ||hooligs.app^$popup
 ||iboobeelt.net^$popup
 ||iglegoarous.net^$popup
+||izeeto.com^$popup
 ||jaineshy.com^$popup
 ||jhsnshueyt.click^$popup
 ||joudauhee.com^$popup
@@ -13321,6 +13356,7 @@ _728x90_
 ||parturemv.top^$popup
 ||phuthobsee.com^$popup
 ||pnouting.com^$popup
+||praiseddisintegrate.com^$popup
 ||pro-adblocker.com^$popup
 ||pronouncedlaws.com^$popup
 ||ptailadsol.net^$popup
