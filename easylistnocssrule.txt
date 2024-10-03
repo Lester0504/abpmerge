@@ -1,9 +1,9 @@
-! Checksum: xI1MQka1e55b+fP+E77xsw
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1727940981-3600.patch
+! Checksum: +G8mE5rOuMlUHKnN4BWAFQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1727958998-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.54.87
-! TimeUpdated: 2024-10-03T07:31:20+00:00
+! Version: 2.3.54.92
+! TimeUpdated: 2024-10-03T12:31:25+00:00
 ! Expires: 5 days (update frequency)
 ||notabl8.com^
 ||y.crazyporn.xxx^
@@ -2316,6 +2316,8 @@ $script,third-party,denyallow=ckeditor.com|fastly.net|statically.io|sharecast.ws
 ||game8.vn/Partial/AdvMobileContent?IdAdv=
 !+ NOT_OPTIMIZED
 @@||game24h.vn/js/ads_v*.js?v=$domain=game24h.vn
+!+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
@@ -6350,6 +6352,7 @@ _728x90_
 ||bkojzevpe.com^
 ||bkr5xeg0c.com^
 ||bktdmqdcvshs.xyz^
+||bktsauna.com^
 ||bkuqgkjpqzofi.com^
 ||bl230126pb.com^
 ||blackandwhite-temporary.com^
@@ -6522,6 +6525,7 @@ _728x90_
 ||broworkers5s.com^
 ||browserr.top^
 ||browsiprod.com^
+||brucinabowmen.com^
 ||bruisedpaperworkmetre.com^
 ||brunchcreatesenses.com^
 ||bruntstabulae.com^
@@ -7947,6 +7951,7 @@ _728x90_
 ||ftjcfx.com^
 ||ftv-publicite.fr^
 ||ftwpcn.com^
+||fucategallied.com^
 ||fuckthat.xyz^
 ||fudukrujoa.com^
 ||fujxujid.com^
@@ -8464,6 +8469,7 @@ _728x90_
 ||holahupa.com^
 ||holdingwager.com^
 ||holgateperfect.com^
+||hollekejokiest.com^
 ||hollowcharacter.com^
 ||holmicnebbish.com^
 ||homagertereus.click^
@@ -8530,6 +8536,7 @@ _728x90_
 ||hueadsxml.com^
 ||hugfromoctopus.com^
 ||huhcoldish.com^
+||huldahflotter.com^
 ||hummingexam.com^
 ||humoralpurline.com^
 ||humpdecompose.com^
@@ -8854,6 +8861,7 @@ _728x90_
 ||joaglouwulin.com^
 ||joastaca.com^
 ||joathath.com^
+||jobetartane.com^
 ||jobfilletfortitude.com^
 ||jogcu.com^
 ||joggingavenge.com^
@@ -10035,6 +10043,7 @@ _728x90_
 ||opclck.com^
 ||opdxpycrizuq.com^
 ||opencan.net^
+||openersbens.com^
 ||openingmetabound.com^
 ||openmindedaching.com^
 ||openmindter.com^
@@ -11024,6 +11033,7 @@ _728x90_
 ||ropeanresultanc.com^
 ||rose2919.com^
 ||rosolicdalapon.com^
+||rosskenyte.click^
 ||rotarb.bid^
 ||rotate4all.com^
 ||rotondagud.com^
@@ -11899,6 +11909,8 @@ _728x90_
 ||totalnicefeed.com^
 ||totalnicenewz.com^
 ||totalwownews.com^
+||touchytautogs.com^
+||toushuhoophis.xyz^
 ||toutsneskhi.com^
 ||touzoaty.net^
 ||towersresent.com^
@@ -12003,6 +12015,7 @@ _728x90_
 ||trustedcpmrevenue.com^
 ||trustedgatetocontent.com^
 ||trustedpeach.com^
+||trusteenubian.com^
 ||trustmaxonline.com^
 ||trusty-research.com^
 ||trustyfine.com^
@@ -12139,6 +12152,7 @@ _728x90_
 ||unhonedyork.shop^
 ||unicornpride123.com^
 ||unkinpigsty.com^
+||unmanyabby.com^
 ||unmeltsavaged.click^
 ||unmightboxen.com^
 ||unmownpirated.shop^
@@ -12594,6 +12608,7 @@ _728x90_
 ||woefifty.com^
 ||wogglehydrae.com^
 ||wokm8isd4zit.com^
+||wokseephishopty.net^
 ||wollycanoing.com^
 ||wolve.pro^
 ||womangathering.com^
