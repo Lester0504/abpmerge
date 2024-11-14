@@ -1,9 +1,9 @@
-! Checksum: CWK1II7qIs8RkqshSWOlhA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1731569970-3600.patch
+! Checksum: xyr4tD9Z7YLWY9gCfym/Xg
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1731598657-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.60.60
-! TimeUpdated: 2024-11-14T07:31:24+00:00
+! Version: 2.3.60.67
+! TimeUpdated: 2024-11-14T15:31:33+00:00
 ! Expires: 5 days (update frequency)
 ||profitablecpmrate.com^
 ||wwwwzeraqvrej.top^
@@ -3454,6 +3454,7 @@ worldhistory.org$$script[tag-content="adShield"]
 ||html-load.com^$script,redirect=noopjs,domain=wouldurather.io|oraridiapertura24.it|laleggepertutti.it|cruciverba.it|motscroises.fr|palabr.as|word-grabber.com|dramabeans.com|wort-suchen.de|thesaurus.net|blog.esuteru.com|blog.livedoor.jp|carscoops.com|dziennik.pl|inven.co.kr|ff14net.2chblog.jp|eurointegration.com.ua|flatpanelshd.com|fourfourtwo.co.kr|issuya.com|itainews.com|iusm.co.kr|logicieleducatif.fr|mydaily.co.kr|onlinegdb.com|pravda.com.ua|reportera.co.kr|sportsrec.com|taxguru.in|text-compare.com|thesaurus.net|thestar.co.uk|tweaksforgeeks.com|videogamemods.com|wfmz.com|winfuture.de|worldhistory.org|yorkshirepost.co.uk|the-crossword-solver.com|missyusa.com|crosswordsolver.com|raetsel-hilfe.de|heureka.cz|verkaufsoffener-sonntag.com|mynet.com|ff14net.2chblog.jp|onecall2ch.com|news4vip.livedoor.biz|yugioh-starlight.com|woxikon.de|suzusoku.blog.jp|forsal.pl|infor.pl|rabitsokuhou.2chblog.jp|cool-style.com.tw|tportal.hr
 ||html-load.com/loader.min.js$domain=issuya.com|pravda.com.ua|lamire.jp|picrew.me|mydaily.co.kr|badmouth1.com|taxguru.in|sportsrec.com|reportera.co.kr|tweaksforgeeks.com|fourfourtwo.co.kr|flatpanelshd.com|wfmz.com|videogamemods.com|dziennik.pl|inven.co.kr|ff14net.2chblog.jp|eurointegration.com.ua|jin115.com|gloria.hr|etnews.com|carscoops.com|sportsseoul.com|onlinegdb.com|text-compare.com|winfuture.de|hoyme.jp|indiatimes.com|blog.esuteru.com|modhub.us|thatgossip.com|gazetaprawna.pl
 ||content-loader.com/loader.min.js$domain=issuya.com|dziennik.pl|inven.co.kr|ff14net.2chblog.jp
+!+ NOT_PLATFORM(ext_ff)
 .php$script,domain=onmpeg.com
 /fl.js$domain=nopeporn.com|veu.xxx|oralhoes.com|sexytrunk.com|xxxbanjo.com|beeg.com|croea.com|hipornvideo.com|imagetwist.com|imgskull.com|kporno.com|picfox.org|picshick.com|picturelol.com|porntube.com|24video.adult|24video.in|peretrah.com|pornognomik.com|sizke.com|imagecrest.com|imgtaxi.com|chaostube.net|imgadult.com|imgdrive.net|imgwallet.com
 ||bing.com/api/$app=Skype.exe
@@ -7339,6 +7340,7 @@ _800x80_
 ||abruptlydummy.com^
 ||absenceoverload.com^
 ||absentcleannewspapers.com^
+||absentmissingaccept.com^
 ||abservinean.com^
 ||absolutelyconfession.com^
 ||absoluteroute.com^
@@ -8866,6 +8868,7 @@ _800x80_
 ||bustling-let.pro^
 ||buticiodized.shop^
 ||buxbaumiaceae.sbs^
+||buxfmookn.com^
 ||buyfrightencheckup.com^
 ||buzzdancing.com^
 ||buzzingdiscrepancyheadphone.com^
@@ -11046,6 +11049,7 @@ _800x80_
 ||gloumsie.net^
 ||glounugeepse.xyz^
 ||glouseer.net^
+||glousoonomsy.xyz^
 ||gloussowu.xyz^
 ||gloustoa.net^
 ||gloutanacard.com^
@@ -13913,6 +13917,7 @@ _800x80_
 ||outofthecath.org^
 ||outrotomr.com^
 ||outseeltor.com^
+||outseethoozet.net^
 ||outsliggooa.com^
 ||outsohoam.com^
 ||outstandingspread.com^
@@ -15169,6 +15174,7 @@ _800x80_
 ||rgrd.xyz^
 ||rhinioncappers.com^
 ||rhombicsomeday.com^
+||rhoxbneasg.xyz^
 ||rhrim.com^
 ||rhumbslauders.click^
 ||rhxbuslpclxnisl.com^
@@ -16776,6 +16782,7 @@ _800x80_
 ||umhlnkbj.xyz^
 ||umpedshumal.com^
 ||umqmxawxnrcp.com^
+||umtchdhkrx.com^
 ||umtudo.com^
 ||unamplespalax.com^
 ||unbeastskilled.shop^
