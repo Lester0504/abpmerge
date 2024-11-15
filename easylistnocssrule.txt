@@ -1,9 +1,9 @@
-! Checksum: nNKj8ThzNw/9Pm/vITb1wA
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1731656238-3600.patch
+! Checksum: EBWdzEDFKY6c8STu8goIzA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1731685086-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.60.75
-! TimeUpdated: 2024-11-15T07:31:33+00:00
+! Version: 2.3.60.82
+! TimeUpdated: 2024-11-15T15:31:49+00:00
 ! Expires: 5 days (update frequency)
 ||championshipcoma.com^
 ||late-anxiety.com^
@@ -3208,7 +3208,7 @@ updown.ninja,urlcut.ninja,sitenable.*,filesdownloader.com,siteget.net,freeproxy.
 evernia.site,worldsports.me,vidsrc2.*,viprow.nu,olkuj.com,ijvam.com,olympicstreams.*,buffsports.me,uploadhaven.com,megaup.net,exeo.app,vidsrc.*,cricstream.me,vipleague.*,socceronline.me,igg-games.co,crackstreams.*,torrentmac.net,vipboxtv.*,vipbox.*,userscloud.com,game3rb.com,soap2day.*,soccerworldcup.me,igg-games.com,miraculous.to,coloredmanga.com,hentaispark.com,send.cm$$script[wildcard="*FingerprintJS*;break;case*"][min-length="100000"][max-length="900000"]
 toonily.me$$img[onerror="location.replace"]
 [$domain=/^filemoon-.*\.xyz/]$$script:contains(/\.add\([\s\S]*?under:[\s\S]*?newTab:/)
-file-mi11ljwj-embed.com,moonfile-62es3l9z.com,moon-kg83docx.com,file-1bl9ruic-moon.com,moon-fm43w1qv.com,jmzkzesy.xyz,filemoon-qm3chdkh.xyz,altyazilivipx3.shop,filemoon.*$$script:contains(/\.add\([\s\S]*?under:[\s\S]*?newTab:/)
+moon-4uemks89-embed.com,4k2h4w04.xyz,file-mi11ljwj-embed.com,moonfile-62es3l9z.com,moon-kg83docx.com,file-1bl9ruic-moon.com,moon-fm43w1qv.com,jmzkzesy.xyz,filemoon-qm3chdkh.xyz,altyazilivipx3.shop,filemoon.*$$script:contains(/\.add\([\s\S]*?under:[\s\S]*?newTab:/)
 ||pubads.g.doubleclick.net/ondemand/hls/*.m3u8$hls=/redirector\.googlevideo\.com\/videoplayback[\s\S]*?dclk_video_ads/,domain=10play.com.au
 coolrom.com.au$$script[tag-content="window.location.href='/offers/"][min-length="100"][max-length="800"]
 !+ PLATFORM(windows, mac, android)
@@ -3440,8 +3440,9 @@ syosetu.com$$script[src="securepubads.g.doubleclick.net"]
 tweaksforgeeks.com,thesaurus.net,cboard.net,joongdo.co.kr,viva100.com,thephoblographer.com,gamingdeputy.com,alle-tests.nl,maketecheasier.com,automobile-catalog.com,allthekingz.com,motorbikecatalog.com,jjang0u.com,interfootball.co.kr$$script[tag-content="KCgpPT57bGV0IGU"]
 talkwithstranger.com,tportal.hr,cool-style.com.tw,infor.pl,forsal.pl,gazetaprawna.pl,heureka.cz,missyusa.com,pressian.com,issuya.com,eurointegration.com.ua,worldhistory.org,etnews.com,iusm.co.kr,lamire.jp,picrew.me,text-compare.com,etnewskorea.com,gadgets360.com,mydaily.co.kr,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,sportsrec.com,reportera.co.kr,tweaksforgeeks.com,fourfourtwo.co.kr,flatpanelshd.com,wfmz.com,videogamemods.com,jin115.com,hoyme.jp,blog.esuteru.com,blog.livedoor.jp,itainews.com$$script[onload="error-report.com"]
 sourceforge.net,rostercon.com,petitfute.com,talkwithstranger.com,tportal.hr,cool-style.com.tw,rabitsokuhou.2chblog.jp,infor.pl,forsal.pl,winfuture.de,wouldurather.io,blog.esuteru.com,blog.livedoor.jp,itainews.com,jin115.com,oraridiapertura24.it,suzusoku.blog.jp,woxikon.de,yugioh-starlight.com,news4vip.livedoor.biz,onecall2ch.com,ff14net.2chblog.jp,mynet.com,laleggepertutti.it,verkaufsoffener-sonntag.com,heureka.cz,raetsel-hilfe.de,word-grabber.com,the-crossword-solver.com,wort-suchen.de,eurointegration.com.ua,gloria.hr,wfmz.com,allthetests.com,javatpoint.com,globalrph.com,carscoops.com,islamicfinder.org$$script[tag-content="error-report.com"]
-slobodnadalmacija.hr,lovelive-petitsoku.com$$script[tag-content="Ad-Shield"]
+pravda.com.ua,slobodnadalmacija.hr,lovelive-petitsoku.com$$script[tag-content="Ad-Shield"]
 worldhistory.org$$script[tag-content="adShield"]
+||19706903.xyz^$domain=pravda.com.ua
 ||thestar.co.uk/_build/main.*.js$replace=/\,a\w\whield:\w+//
 *$document,csp=script-src-attr 'none',domain=cruciverba.it|motscroises.fr|palabr.as|word-grabber.com|wort-suchen.de|lamire.jp|picrew.me|badmouth1.com|jin115.com|gloria.hr|etnews.com|sportsseoul.com|hoyme.jp|heraldm.com
 ||html-load.com^$script,redirect=noopjs,domain=wouldurather.io|oraridiapertura24.it|laleggepertutti.it|cruciverba.it|motscroises.fr|palabr.as|word-grabber.com|dramabeans.com|wort-suchen.de|thesaurus.net|blog.esuteru.com|blog.livedoor.jp|carscoops.com|dziennik.pl|inven.co.kr|ff14net.2chblog.jp|eurointegration.com.ua|flatpanelshd.com|fourfourtwo.co.kr|issuya.com|itainews.com|iusm.co.kr|logicieleducatif.fr|mydaily.co.kr|onlinegdb.com|pravda.com.ua|reportera.co.kr|sportsrec.com|taxguru.in|text-compare.com|thesaurus.net|thestar.co.uk|tweaksforgeeks.com|videogamemods.com|wfmz.com|winfuture.de|worldhistory.org|yorkshirepost.co.uk|the-crossword-solver.com|missyusa.com|crosswordsolver.com|raetsel-hilfe.de|heureka.cz|verkaufsoffener-sonntag.com|mynet.com|ff14net.2chblog.jp|onecall2ch.com|news4vip.livedoor.biz|yugioh-starlight.com|woxikon.de|suzusoku.blog.jp|forsal.pl|infor.pl|rabitsokuhou.2chblog.jp|cool-style.com.tw|tportal.hr
@@ -5270,6 +5271,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||googleadservices.com^$domain=google.ae|google.at|google.be|google.by|google.ca|google.ch|google.cl|google.cn|google.co.id|google.co.in|google.co.jp|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.bd|google.com.br|google.com.co|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.ng|google.com.pe|google.com.ph|google.com.pk|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.vn|google.de|google.dk|google.ee|google.es|google.fr|google.gr|google.hu|google.ie|google.it|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|google.tn
 !+ PLATFORM(android)
 @@||adguard.com^$stealth
+@@||loyalty-hub.api.unoapp.io/api/$domain=monsterenergyloyalty.com,stealth=referrer
+@@||mapi.perfectworldgames.com/*/api/user/token/login$stealth=xclientdata
 @@||ac.namu.la^$image,domain=arca.live,stealth=referrer
 @@||ystream.gcdn.app/*/api/$stealth=referrer
 @@||skyscanner.co.kr/*/xhr/assets/js/bundle$stealth=useragent
