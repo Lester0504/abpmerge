@@ -1,9 +1,9 @@
-! Checksum: 4W7nR+utI3lWnS6fGoa2tg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1736408604-3600.patch
+! Checksum: BJtytdTLXasI1grbmxrctA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1736437352-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.67.19
-! TimeUpdated: 2025-01-09T07:31:29+00:00
+! Version: 2.3.67.25
+! TimeUpdated: 2025-01-09T15:31:24+00:00
 ! Expires: 5 days (update frequency)
 ||mqprzapns.com^
 ||dzeaqmeuaql.com^
@@ -7862,6 +7862,9 @@ interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhchannel2.com,xhtotal.com,xht
 /^https?:\/\/(?:www\.|[a-z0-9]{7,10}\.)?[a-z0-9-]{5,}\.(?:com|bid|link|live|online|top|club)\/\/?(?:[a-z0-9]{2}\/){2,3}[a-f0-9]{32}\.js/$script,third-party,redirect=noopjs
 /(?:com|net)\/[a-z-]{3,10}\.html$/$subdocument,~third-party,domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
 !+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
 ||goraidparty.com/images/ad_banner
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
@@ -9080,6 +9083,7 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||googleadservices.com^$domain=google.ae|google.at|google.be|google.by|google.ca|google.ch|google.cl|google.cn|google.co.id|google.co.in|google.co.jp|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.bd|google.com.br|google.com.co|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.ng|google.com.pe|google.com.ph|google.com.pk|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.vn|google.de|google.dk|google.ee|google.es|google.fr|google.gr|google.hu|google.ie|google.it|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|google.tn
 !+ PLATFORM(android)
 @@||adguard.com^$stealth
+@@/media/*$image,stealth=referrer,domain=bato.to
 @@||api.eon.com/da/edg/cscs-account-api$stealth=3p-auth
 @@||foreks.com$stealth=referrer,domain=akbank.com
 @@||zh.wikipedia.org/zh-$stealth=referrer
@@ -9806,7 +9810,6 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 -ads-bottom.
 -ads-manager/$domain=~wordpress.org
 -ads/assets/$script,domain=~web-ads.org
--auto-ads-
 -banner-ad_
 -banner-ads-$~script
 -contrib-ads.$~stylesheet
@@ -9818,7 +9821,6 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 -popunder.
 -publicidad.
 -right-ad.
--sidebar-ad.
 -sponsor-ad.
 -top-ads.
 -web-advert-$image
@@ -9826,7 +9828,6 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 .adriver.$~object,domain=~adriver.co
 .adrotate.
 .ads-lazy.
-.ads-min.
 .ads.controller.
 .ads.css
 .adsbox.
@@ -9844,6 +9845,7 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 .click/cuid/?$third-party
 .click/rf/$third-party
 .clkads.
+.club/js/popunder.js$script
 .cn/sc/*?n=$script,third-party
 .com/4/js/$third-party
 .com/a?pagetype
@@ -10032,7 +10034,9 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /amazon-ad-link-$stylesheet
 /amazon-associates-link-$~stylesheet
 /amp-ad-$script
+/amp-auto-ads-$script
 /amp-sticky-ad-$script
+/amp-story-auto-ads-$script
 /ane-popup-banner.js$script
 /api/ad.$script
 /api/ads?
@@ -10308,18 +10312,16 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 ?service=ad&
 ?usid=*&utid=
 ?wppaszoneid=
-_ad_250.
-_ad_300.
+_ad_250.$image
+_ad_300.$image
 _ad_banner.
 _ad_bottom.
-_ad_box.
 _ad_choices.
 _ad_header.
 _ad_image_
 _ad_layer_
 _ad_right.
 _ad_side.
-_ad_sidebar_
 _ad_skyscraper.
 _ad_wrapper.
 _adbanner_
@@ -10327,7 +10329,6 @@ _adchoice.
 _adchoices.
 _adhome.
 _adlabel_
-_adnetwork.
 _adpartner.
 _adplugin.
 _adright.
@@ -10337,7 +10338,6 @@ _ads.php?
 _ads_updater-
 _adserve.
 _adskin.
-_adskin_
 _adtitle.
 _advertise-$domain=~linkedin.com
 _advertise.
@@ -10346,10 +10346,8 @@ _affiliate_ad.
 _assets/ads/
 _asyncspc.
 _background_ad.
-_banner_ad.
 _banner_ad_
 _Banner_Ads_
-_bannerad.
 _BannerAd_
 _bottom_ads.
 _bottom_ads_
@@ -10362,9 +10360,7 @@ _images/ad.$image
 _images/ad_
 _images/ads/
 _layerad.
-_left_ad.
 _panel_ads.
-_partner_ad.
 _popunder_
 _pushads.
 _rectangle_ads.
@@ -10372,17 +10368,12 @@ _reklama_$domain=~youtube.com
 _reporting_ads.
 _rightad.
 _rightad_
-_sidead.
 _sidebar_ad.
 _sidebar_ad_
-_square_ad.
 _sticky_ad.
 _StickyAd.
-_text_ads.
 _top_ad.
-_vertical_ad.
 _web-advert.
-_widget_ad.
 /plugins/ad-ace/assets/js/coupons.js$script
 /plugins/ad-ace/assets/js/slot-slideup.js$script
 /plugins/ad-ace/includes/shoppable-images/*$script
@@ -18414,6 +18405,7 @@ _800x80_
 ||vpnonly.site^
 ||vprtrfc.com^
 ||vrgvugostlyhewo.info^
+||vrizead.com^
 ||vs3.com^
 ||vscinyke.com^
 ||vsmokhklbw.com^
@@ -20106,6 +20098,7 @@ _800x80_
 ||partners.hostgator.com^
 ||pb.s3wfg.com^
 ||pips.taboola.com^
+||pixfs.net/js/sticky-sidebar-ad.min.js
 ||play-asia.com^$image,subdocument,third-party
 ||promos.fling.com^
 ||pubfeed.linkby.com^
@@ -20614,6 +20607,7 @@ _800x80_
 ||realpython.net/tag.js
 ||revolver.news/wp-content/banners/
 ||romspacks.com/sfe123.js
+||samba.org/banners/$image
 ||sasinator.realestate.com.au^
 ||save-editor.com/b/in/ad/
 ||search.brave.com/api/ads/
