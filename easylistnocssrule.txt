@@ -1,9 +1,9 @@
-! Checksum: 27/LPvSITOQ2LgqmFsTGjQ
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1736494990-3600.patch
+! Checksum: 5eUXvWKUdP/2tL9MlM7bmw
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1736523773-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.67.35
-! TimeUpdated: 2025-01-10T07:31:30+00:00
+! Version: 2.3.67.39
+! TimeUpdated: 2025-01-10T15:31:29+00:00
 ! Expires: 5 days (update frequency)
 ||uz-kqtecqs.space^
 ||mqprzapns.com^
@@ -7121,6 +7121,7 @@ $script,third-party,denyallow=ckeditor.com|fastly.net|statically.io|sharecast.ws
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
 pornhat.com$$script[tag-content="initCustomEvent(""getexoloader"""][min-length="500"][max-length="1000"]
 !+ NOT_OPTIMIZED
 104.155.51.226:443$network
@@ -9076,6 +9077,8 @@ $csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: www.googletagma
 @@||googleadservices.com^$domain=google.ae|google.at|google.be|google.by|google.ca|google.ch|google.cl|google.cn|google.co.id|google.co.in|google.co.jp|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.bd|google.com.br|google.com.co|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.ng|google.com.pe|google.com.ph|google.com.pk|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.vn|google.de|google.dk|google.ee|google.es|google.fr|google.gr|google.hu|google.ie|google.it|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk|google.tn
 !+ PLATFORM(android)
 @@||adguard.com^$stealth
+!+ PLATFORM(android)
+@@/remote_control.php?file=$stealth=referrer|ip
 @@/media/*$image,stealth=referrer,domain=bato.to
 @@||api.eon.com/da/edg/cscs-account-api$stealth=3p-auth
 @@||foreks.com$stealth=referrer,domain=akbank.com
@@ -11747,6 +11750,7 @@ _800x80_
 ||ay5u9w4jjc.com^
 ||ayads.co^
 ||aycrxa.com^
+||ayiztaefkfzs.com^
 ||aykqyjzbkkkra.top^
 ||aymijlwl.com^
 ||azenka.one^
@@ -13172,6 +13176,7 @@ _800x80_
 ||dzienkudrow.com^
 ||dzinzafogdpog.com^
 ||dzliege.com^
+||dzsopgxm.com^
 ||dzubavstal.com^
 ||e2ertt.com^
 ||e59a2ad79a.com^
@@ -13954,6 +13959,7 @@ _800x80_
 ||graitaulrocm.net^
 ||graivampouth.net^
 ||graizoah.com^
+||grallichalvas.com^
 ||granddadfindsponderous.com^
 ||grangilo.net^
 ||granthspillet.top^
@@ -14588,6 +14594,7 @@ _800x80_
 ||jezailmasking.com^
 ||jezer.site^
 ||jfjle4g5l.com^
+||jibbahazara.top^
 ||jicamadoless.com^
 ||jicamasosteal.shop^
 ||jidroumsaghetu.xyz^
@@ -14613,6 +14620,7 @@ _800x80_
 ||joathath.com^
 ||jobeyeball.com^
 ||jobfilletfortitude.com^
+||jobfukectivetr.com^
 ||joggingavenge.com^
 ||jokersguaiac.shop^
 ||joocophoograumo.net^
@@ -14620,6 +14628,7 @@ _800x80_
 ||joomisomushisuw.net^
 ||joomxer.fun^
 ||joozoowoak.net^
+||joptodsougegauw.com^
 ||joqowqyaarewj.top^
 ||josjrhtot.com^
 ||jotterswirrah.com^
@@ -16994,6 +17003,7 @@ _800x80_
 ||rusenov.com^
 ||rustycleartariff.com^
 ||ruvqitlilqi.com^
+||rvardsusyseinp.org^
 ||rvetreyu.net^
 ||rvisofoseveralye.com^
 ||rvisofoseveralyear.com^
