@@ -1,9 +1,9 @@
-! Checksum: Tt0qkI0pWsyHxSMlArLxKg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1737704577-3600.patch
+! Checksum: 6ElfaQe6spHpGyUDGaskCQ
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1737733362-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.69.5
-! TimeUpdated: 2025-01-24T07:31:40+00:00
+! Version: 2.3.69.11
+! TimeUpdated: 2025-01-24T15:31:34+00:00
 ! Expires: 5 days (update frequency)
 ||wobbly-birth.com^$all
 ||hotbraraja.cc^
@@ -10681,7 +10681,6 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /ads/video/*$script
 /ads1.$~xmlhttprequest,domain=~ads-i.org
 /ads728.$image
-/ads?apid
 /ads?client=
 /ads?id=
 /ads?object_$script
@@ -10877,7 +10876,7 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /popup3.js$script
 /popupads.js$script
 /prbt/v1/ads/?_=
-/processing/impressions.asp?
+/processing/impressions.asp?$image
 /production/ad-$script
 /production/ads/*$script
 /promo.php?c=$third-party
@@ -10906,7 +10905,7 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /script/aclib.js$third-party
 /script/atg.js$third-party
 /script/ippg.js$third-party
-/script/java.php?$xmlhttprequest
+/script/java.php?$third-party,xmlhttprequest
 /sdk/push_web/?zid=$third-party
 /serveads.php$script
 /servlet/view/*$script
@@ -10971,7 +10970,6 @@ iview.abc.net.au/programs$replace=/("type"\:"preroll")[\s\S]*("type")/"type"/
 /wppas.min.js$script
 /www/delivery/*$script,subdocument
 /xpopup.js$script
-/zcredirect?
 /~cdn/ads/*
 ://a.*/ad-provider.js$third-party
 ://a.ads.
@@ -11023,7 +11021,7 @@ _reklama_$domain=~youtube.com
 /tabu/display.js$script
 /myvids/rek/*$script,subdocument
 /push-skin/skin.min.js$script
-/search/tsc.php?
+/search/tsc.php?ses=
 /full-page-script.js$script
 /beardeddragon/drake.js$script
 /beardeddragon/gilamonster.js$script
@@ -11083,6 +11081,7 @@ _reklama_$domain=~youtube.com
 _prebid.js$script
 &sadbl=1&abtg=$third-party
 /page/bouncy.php?$document
+/zcredirect?$document
 /jquery.peelback.$script
 /ad-blocking-advisor/*$script,stylesheet
 /adblock-detect.$script
@@ -12326,6 +12325,7 @@ _800x80_
 ||ayads.co^
 ||aycrxa.com^
 ||ayiztaefkfzs.com^
+||aywnaoliigc.com^
 ||azenka.one^
 ||aznraxov.com^
 ||azoaltou.com^
@@ -12394,6 +12394,7 @@ _800x80_
 ||bcloudhost.com^
 ||bcprm.com^
 ||be51586160.com^
+||beaconyirred.com^
 ||beakexcursion.com^
 ||beakpee.com^
 ||bealafulup.com^
@@ -12746,6 +12747,7 @@ _800x80_
 ||bushsurprising.com^
 ||businessessities.com^
 ||businesslinenow.com^
+||bustaumtatelt.net^
 ||busticsfibrose.com^
 ||bustlefungus.com^
 ||buxfmookn.com^
@@ -13450,6 +13452,7 @@ _800x80_
 ||deliverytraffico.com^
 ||deloplen.com^
 ||deltraff.com^
+||delveactivity.com^
 ||demand.supply^$script
 ||demanding-application.pro^
 ||demiseskill.com^
@@ -13723,6 +13726,7 @@ _800x80_
 ||ecvjrxlrql.com^
 ||edconsideundence.org^
 ||edcvsfr.org^
+||edgypollnormandy.com^
 ||ediatesuperviso.com^
 ||edioca.com^
 ||edition25.com^
@@ -14281,6 +14285,7 @@ _800x80_
 ||gfxdn.pics^
 ||gggpht.com^
 ||gglnntqufw.life^
+||ghcaoaefmj.com^
 ||ghettosteal.shop^
 ||ghhleiaqlm.com^
 ||ghostnewz.com^
@@ -16552,6 +16557,7 @@ _800x80_
 ||pigmewpiete.com^
 ||pignuwoa.com^
 ||pigtre.com^
+||piiqrmvymwue.world^
 ||pilespaua.com^
 ||pingergauss.com^
 ||pinklabel.com^
@@ -16899,6 +16905,7 @@ _800x80_
 ||puppyderisiverear.com^
 ||pupspu.com^
 ||puranaszaramo.com^
+||purchase-shop.com^
 ||purlingresews.com^
 ||purpleads.io^
 ||purplepatch.online^
@@ -17568,6 +17575,7 @@ _800x80_
 ||shoonsicousu.net^
 ||shoordaird.com^
 ||shopliftingrung.com^
+||shopsonnies.top^
 ||shorteh.com^
 ||shoulderadmonishstore.com^
 ||show-creative1.com^
@@ -18126,6 +18134,7 @@ _800x80_
 ||toboads.com^
 ||tocksideman.com^
 ||toddlecausebeeper.com^
+||todlht-xnm.rocks^
 ||toeapesob.com^
 ||togenron.com^
 ||toglooman.com^
@@ -18162,6 +18171,7 @@ _800x80_
 ||toptrendyinc.com^
 ||toptrindexapsb.com^
 ||toreddorize.com^
+||torekareau.com^
 ||tortoisesun.com^
 ||toscytheran.com^
 ||totalcoolblog.com^
@@ -18496,6 +18506,7 @@ _800x80_
 ||valvyre.com^
 ||vandalismundermineshock.com^
 ||vanirausones.shop^
+||vannaxacqpm.com^
 ||variable-love.pro^
 ||varietyofdisplayformats.com^
 ||variouscreativeformats.com^
@@ -18583,6 +18594,7 @@ _800x80_
 ||viewclc.com^
 ||viewpath.xyz^
 ||viewyentreat.guru^
+||vigorneptune.com^
 ||vihub.ru^
 ||viibmmqc.com^
 ||viidsyej.com^
@@ -18935,6 +18947,7 @@ _800x80_
 ||wyjjqoqlfjtbbr.com^
 ||wynvalur.com^
 ||wyrockraptest.shop^
+||wzijtuxzut.com^
 ||x011bt.com^
 ||x2tsa.com^
 ||x7r3mk6ldr.com^
@@ -19943,6 +19956,7 @@ _800x80_
 ||doubleclick.net^$popup
 ||download-privacybear.com^$popup
 ||eacdn.com^$popup
+||edgypollnormandy.com^$popup
 ||eshkol.io^$popup
 ||fractionfridgejudiciary.com^$popup
 ||gadssystems.com^$popup
@@ -19984,10 +19998,12 @@ _800x80_
 ||otoadom.com^$popup
 ||paizowheefash.net^$popup
 ||pemsrv.com^$popup
+||phudsumipakr.net^$popup
 ||pretrackings.com^$popup
 ||profitablecpmgate.com^$popup
 ||psegeevalrat.net^$popup
 ||ptailadsol.net^$popup
+||purchase-shop.com^$popup
 ||raisoglaini.net^$popup
 ||raunooligais.net^$popup
 ||rdtk.io^$popup
