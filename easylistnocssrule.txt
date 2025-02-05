@@ -1,9 +1,9 @@
-! Checksum: 6YdRXXtrM+CK2vpfiPBXEg
-! Diff-Path: ../patches/2_optimized/2_optimized-s-1738737832-3600.patch
+! Checksum: fTJ+1WEme4+CmFivrU6dYA
+! Diff-Path: ../patches/2_optimized/2_optimized-s-1738770270-3600.patch
 ! Title: AdGuard Base filter (Optimized)
 ! Description: EasyList + AdGuard English filter. This filter is necessary for quality ad blocking.
-! Version: 2.3.70.50
-! TimeUpdated: 2025-02-05T06:31:40+00:00
+! Version: 2.3.70.57
+! TimeUpdated: 2025-02-05T15:31:46+00:00
 ! Expires: 5 days (update frequency)
 ||videocdnmetrika.com^
 ||pkyffuewwuhnld.com^
@@ -2977,7 +2977,7 @@ pch.com$$script[tag-content="return h.hasOwnProperty('pAPI')"]
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=kitploit.com
 @@||camhub.cc/player/player_ads.html
 @@||camhub.world/player/player_ads.html
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=di.fm|classicalradio.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=classicalradio.com|di.fm|jazzradio.com|radiotunes.com|rockradio.com|zenradio.com
 ||pubads.g.doubleclick.net/gampad/live/ads?correlator=$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/
 macrotrends.net$$script[tag-content="removeCookie"][min-length="8000"][max-length="20000"]
 @@||satellite-calculations.com/ads.js
@@ -3258,6 +3258,8 @@ auto.cz$$script[tag-content="abortCurrentInlineScript"][max-length="7000"]
 ||sab.fast.ge^
 ||myvideo.ge/delivery/*.php?*vast
 ||sab.fast.ge/www/*/*.$domain=forum.ge
+||xronos.gr/themes/custom/xronos_bootstrap_sass/js/custom.js
+||xronos.fra1.cdn.digitaloceanspaces.com/dev/*/xronos.gr-skin-ad-specs*.jpg
 ||lottie.host^$domain=omonoia24.com
 @@||player.ex.co/config$domain=sportday.gr
 @@||player.ex.co/player/$domain=sportday.gr
@@ -7609,6 +7611,7 @@ _800x80_
 ||4239cc7770.com^
 ||42jdbcb.de^
 ||43ors1osh.com^
+||487ed86ea3.com^
 ||4885e2e6f7.com^
 ||4armn.com^
 ||4d33a4adbc.com^
@@ -7788,7 +7791,6 @@ _800x80_
 ||ad-m.asia^
 ||ad-mapps.com^
 ||ad-maven.com^
-||ad-nex.com^
 ||ad-recommend.com^
 ||ad-score.com^
 ||ad-server.co.za^
@@ -10985,6 +10987,7 @@ _800x80_
 ||husbandnights.com^
 ||husfly.com^
 ||huskypartydance.com^
+||hvwqgedwpckc.com^
 ||hwpnocpctu.com^
 ||hxoewq.com^
 ||hygeistagua.com^
@@ -11085,6 +11088,7 @@ _800x80_
 ||includemodal.com^
 ||incomparable-pair.com^
 ||inconsistencygasdifficult.com^
+||incorddrag.com^
 ||incorphishor.com^
 ||increasinglycockroachpolicy.com^
 ||indefinitelytonsil.com^
@@ -11167,6 +11171,7 @@ _800x80_
 ||ipromcloud.com^
 ||iqrkkaooorvx.com^
 ||iredirect.net^
+||iringtgandmotiv.com^
 ||ironcladtrouble.com^
 ||isawthenews.com^
 ||isbnrs.com^
@@ -11335,6 +11340,7 @@ _800x80_
 ||jwalf.com^
 ||jwalkin.com^
 ||jwia0.top^
+||jxmtttqb.com^
 ||jycrmvvyplmq.com^
 ||jygotubvpyguak.com^
 ||jyzkut.com^
@@ -11375,6 +11381,7 @@ _800x80_
 ||kbjn-sibltg.icu^
 ||kbnmnl.com^
 ||kdlktswsqhpd.com^
+||kdmyatytentionia.com^
 ||keboorsootch.net^
 ||kedsabou.net^
 ||keefeezo.net^
@@ -12600,6 +12607,7 @@ _800x80_
 ||outwallastron.top^
 ||outwingullom.com^
 ||outwoodeuropa.com^
+||ouveedaiz.net^
 ||ouvertrenewed.com^
 ||ouweessougleji.net^
 ||overboardbilingual.com^
@@ -13002,6 +13010,7 @@ _800x80_
 ||projectagoraservices.com^
 ||projectagoratech.com^
 ||projectwonderful.com^
+||projekt678.de^
 ||prolatecyclus.com^
 ||proleclips.com^
 ||promo-bc.com^
@@ -13741,6 +13750,7 @@ _800x80_
 ||seringmedicos.com^
 ||serinuswelling.com^
 ||serleap.com^
+||sertingglucid.com^
 ||serv-selectmedia.com^
 ||serv01001.xyz^
 ||serv1for.pro^
@@ -13998,6 +14008,7 @@ _800x80_
 ||sponsorpay.com^
 ||spoofedyelp.com^
 ||sporedshock.com^
+||sporranawaked.shop^
 ||sportradarserving.com^
 ||sportstoday.pro^
 ||spotofspawn.com^
@@ -14932,6 +14943,7 @@ _800x80_
 ||vupteerairs.net^
 ||vuqcteyi.com^
 ||vursoofte.net^
+||vvojuhtktpmwg.com^
 ||vwchbsoukeq.xyz^
 ||vwpttkoh.xyz^
 ||vxfxkhzdaa.com^
@@ -15106,6 +15118,7 @@ _800x80_
 ||winr.online^
 ||winsaijoacoo.net^
 ||winternewsnow.name^
+||winzessolicit.com^
 ||wipzxpbs.com^
 ||wirtooxoajet.net^
 ||wishjus.com^
@@ -15520,6 +15533,7 @@ _800x80_
 ||4dsply.com^$third-party
 ||a-static.com^$third-party
 ||ad-adapex.io^$third-party
+||ad-nex.com^$third-party
 ||ad-tech.ru^$third-party
 ||ad.plus^$third-party
 ||ad2bitcoin.com^$third-party
@@ -16268,6 +16282,7 @@ _800x80_
 ||srv.tunefindforfans.com^
 ||ssl-images-amazon.com/images/*/DAsf-
 ||ssl-images-amazon.com/images/*/MAsf-
+||ssl.pstatic.net/tveta/libs/
 ||static.sunmedia.tv/integrations/
 ||stay22.com/api/sponsors/
 ||storage.googleapis.com/adtags/
@@ -16579,6 +16594,7 @@ _800x80_
 ||mycryptotraffic.com^$popup
 ||oceansaver.in/ajax/ad/$popup
 ||stake.com/*&clickId=$popup
+||a.cylek.site^
 ||a1tb.com/300x250$subdocument
 ||adultfriendfinder.com/go/$third-party
 ||apps.dfgtfv.com^
@@ -16624,6 +16640,7 @@ _800x80_
 ||vtbe.to/vtu_$script
 ||webcams.com/misc/iframes_new/
 ||widgets.guppy.live^$third-party
+||ww.sphinxtube.com^
 ||xnxx.army/click/
 ||xxx.sdtraff.com^
 /pmc-adm-v2/build/setup-ads.js$domain=bgr.com|deadline.com|rollingstone.com
