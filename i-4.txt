@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Fri, 17 Oct 2025 08:38:46 GMT</b></td>
+<td><b class=blue>Mon, 20 Oct 2025 08:12:12 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3439 / 3439</b></td>
+<td><b class=blue>3440 / 3440</b></td>
 </tr>
 
 </table>
@@ -64,10 +64,10 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 !
 !For more information about this list, see: https://pgl.yoyo.org/adservers/
 !----
-!Last modified: Fri, 17 Oct 2025 08:38:46 GMT
+!Last modified: Mon, 20 Oct 2025 08:12:12 GMT
 !Homepage:      https://pgl.yoyo.org/adservers/
 !Format:        adblockplus
-!Entries:       3439
+!Entries:       3440
 !Credits:       Peter Lowe - pgl@yoyo.org - pgl on github - https://pgl.yoyo.org/
 !This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus
 !Policy:        https://pgl.yoyo.org/adservers/policy.php
@@ -2229,6 +2229,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||megawerbung.de^
 ||meltmilk.com^
 ||memorizeneck.com^
+||mercuryace.com^
 ||merequartz.com^
 ||metadsp.co.uk^
 ||metaffiliation.com^
