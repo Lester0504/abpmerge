@@ -2,5 +2,5 @@
 ! Title: ABP Merge Rules
 ! Description: 该规则合并自jiekouAD，AdGuard中文语言规则，easylistnocssrule，乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance，以及补充的一些规则
 ! Homepage: https://github.com/damengzhu/abpmerge
-! Version: 2025-10-25 08:27:10
+! Version: 2025-10-25 16:24:23
 ! Total count: 0
