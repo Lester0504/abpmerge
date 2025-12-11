@@ -24,7 +24,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>blocklist last updated:</td>
-<td><b class=blue>Thu, 04 Dec 2025 09:33:21 GMT</b></td>
+<td><b class=blue>Thu, 11 Dec 2025 09:01:37 GMT</b></td>
 </tr>
 
 
@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3479 / 3479</b></td>
+<td><b class=blue>3481 / 3481</b></td>
 </tr>
 
 </table>
@@ -64,10 +64,10 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 !
 !For more information about this list, see: https://pgl.yoyo.org/adservers/
 !----
-!Last modified: Thu, 04 Dec 2025 09:33:21 GMT
+!Last modified: Thu, 11 Dec 2025 09:01:37 GMT
 !Homepage:      https://pgl.yoyo.org/adservers/
 !Format:        adblockplus
-!Entries:       3479
+!Entries:       3481
 !Credits:       Peter Lowe - pgl@yoyo.org - pgl on github - https://pgl.yoyo.org/
 !This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus
 !Policy:        https://pgl.yoyo.org/adservers/policy.php
@@ -1144,6 +1144,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||big-bang-ads.com^
 ||bigbangmedia.com^
 ||bigclicks.com^
+||bigfishapparel.com^
 ||bigreal.org^
 ||bigworldfashion.com^
 ||billboard.cz^
@@ -1168,6 +1169,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||blueconic.net^
 ||bluekai.com^
 ||bluelithium.com^
+||bluenest.net^
 ||bluewhaleweb.com^
 ||blushingbeast.com^
 ||blushingbread.com^
