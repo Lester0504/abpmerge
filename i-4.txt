@@ -41,7 +41,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 
 <tr>
 <td>total entries:</td>
-<td><b class=blue>3526 / 3526</b></td>
+<td><b class=blue>3515 / 3515</b></td>
 </tr>
 
 </table>
@@ -67,7 +67,7 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 !Last modified: Fri, 08 May 2026 07:07:57 GMT
 !Homepage:      https://pgl.yoyo.org/adservers/
 !Format:        adblockplus
-!Entries:       3526
+!Entries:       3515
 !Credits:       Peter Lowe - pgl@yoyo.org - pgl on github - https://pgl.yoyo.org/
 !This URL:      https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus
 !Policy:        https://pgl.yoyo.org/adservers/policy.php
@@ -217,7 +217,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||ad.wsod.com^
 ||ad.wz.cz^
 ||ad.xiaomi.com^
-||ad.xmovies8.si^
 ||ad.xrea.com^
 ||ad.ztylez.com^
 ||ad0.bigmir.net^
@@ -375,7 +374,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||adpepper.nl^
 ||adperium.com^
 ||adpia.vn^
-||adplxmd.com^
 ||adprofits.ru^
 ||adpushup.com^
 ||adrazzi.com^
@@ -625,7 +623,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||ads.townhall.com^
 ||ads.travelaudience.com^
 ||ads.trinitymirror.co.uk^
-||ads.tripod.com^
 ||ads.tripod.lycos.co.uk^
 ||ads.tripod.lycos.es^
 ||ads.tripod.lycos.it^
@@ -1320,7 +1317,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||click.i.southwesternrailway.com^
 ||click.infoblox.com^
 ||click.justwatch.com^
-||click.kmindex.ru^
 ||click.liftoff.io^
 ||click.mail.hotels.com^
 ||click.mail.salesforce.com^
@@ -1446,7 +1442,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||counter.rambler.ru^
 ||counter.search.bg^
 ||counter.snackly.co^
-||counting.kmindex.ru^
 ||coupling-media.de^
 ||cowbelltime.com^
 ||coxmt.com^
@@ -1825,7 +1820,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||go.first.org^
 ||go.icann.org^
 ||go.scmagazine.com^
-||go.usa.gov^
 ||go.xlirdr.com^
 ||go2affise.com^
 ||godseedband.com^
@@ -1879,7 +1873,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||hbb.afl.rakuten.co.jp^
 ||hbopenbid.pubmatic.com^
 ||heap.com^
-||heimi-lwx.com^
 ||hellobar.com^
 ||helpcollar.com^
 ||hentaicounter.com^
@@ -2309,7 +2302,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||mintfunnel.co^
 ||mittencattle.com^
 ||mix2ads.com^
-||mixedreading.com^
 ||mixpanel.com^
 ||mkto-ab410147.com^
 ||mktoresp.com^
@@ -2691,7 +2683,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||puffypull.com^
 ||puffypurpose.com^
 ||pureclarity.net^
-||pushance.com^
 ||pushengage.com^
 ||pushno.com^
 ||pushtrack.co^
@@ -2729,7 +2720,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||r1.visualwebsiteoptimizer.com^
 ||r2.visualwebsiteoptimizer.com^
 ||r3.visualwebsiteoptimizer.com^
-||raac33.net^
 ||rabbitrifle.com^
 ||rackforstorage.com^
 ||radar.cedexis.com^
@@ -3584,7 +3574,6 @@ Blocklist of hostnames and domains for blocking ads, trackers and others (format
 ||zedo.com^
 ||zemanta.com^
 ||zencudo.co.uk^
-||zenkreka.com^
 ||zenzuu.com^
 ||zephyrlabyrinth.com^
 ||zeus.developershed.com^
